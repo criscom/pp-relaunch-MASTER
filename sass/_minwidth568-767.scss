@@ -89,7 +89,8 @@ body.node-type-offices {
 
 
 	#block-quicktabs-contact-us-landing-page {
-		margin-top: -84px;
+		// margin-top: -84px; // with world map
+		margin-top: 11px // without world map
 	}
 
 // Tabs
@@ -101,6 +102,15 @@ ul.ui-tabs-nav li.ui-state-default {
 
 ul.ui-tabs-nav li.ui-state-default:last-child {
     width: 153px;
+}
+
+#block-views-contact-us-block-1 div.content .view .view-content {
+  .li_group:nth-child(1) {
+    width: 49% !important;
+  }
+  .li_group:nth-child(2) {
+    width: 51% !important;
+  }
 }
 
 

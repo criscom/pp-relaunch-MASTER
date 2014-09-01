@@ -31,7 +31,8 @@
 
 	// pulling the quicktabs view closer to the map
 	#block-quicktabs-contact-us-landing-page {
-		margin-top: -84px;
+		// margin-top: -84px; // with world map
+		margin-top: 11px // without world map
 	}
 
 // target size 360px

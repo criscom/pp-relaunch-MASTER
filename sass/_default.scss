@@ -686,7 +686,8 @@ h2.newsletter {
 	margin-top: -8px;
 }
 
-span[role="alert"] table.errortext td {
+span[role="alert"] table.errortext td,
+span table.errortext td {
 	color: #faa61a !important;
 }
 
@@ -1041,7 +1042,7 @@ body.node-type-offices {
 		.views-row {
 			float: left;
 			width: 163px;
-			min-height: 363px;
+			min-height: 366px;
 			margin-right: 31px;
 			.field-name-field-linkedin,
 			.views-field-title {
@@ -1566,12 +1567,32 @@ div.read-online-wrapper + div.download-wrapper {
 	margin-bottom: .75rem;
 }
 
+// Make sure that long download pdf links don't break the design on news pages
+.group-pdf-link-wrapper .download {
+	-ms-word-break: break-all;
+
+     /* Be VERY careful with this, breaks normal words wh_erever */
+     word-break: break-all;
+
+     /* Non standard for webkit */
+     word-break: break-word;
+
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;
+
+}
+
 
 // published by link
 
 .published-by-wrapper {
 	margin-bottom: 1.4em;
 	float: right;
+}
+
+.field-name-field-published-by-text {
+	// float: left;
 }
 
 
@@ -1645,6 +1666,10 @@ div.querytable {
 	border: solid 1px #ddd;
 	-webkit-border-radius: 3px 3px 3px 3px;
 	border-radius: 3px 3px 3px 3px;
+}
+
+.gm iframe {
+	padding: 0 !important; 
 }
 
 // Team photos in right sidebar
@@ -2148,6 +2173,33 @@ ul.nav>li:last-child {
 	display: none;
 }
 
+
+//===========================================================
+// SITEMAP
+
+body.sitemap {
+	.menu-block-wrapper {
+		ul {
+			li {
+				list-style: none;
+				list-style-type: none;
+				a {
+					color: $blue;
+					text-decoration: underline;
+					&:hover, &:focus {
+						text-decoration: none;
+					}
+				}
+			}
+			li.first {
+				margin-left: 0 !important;
+				a {
+					font-size: 20px !important;
+				}
+			}
+		}
+	}
+}
 
 
 /* News detail page */

@@ -28,7 +28,9 @@
 
 	// pulling the quicktabs view closer to the map
 	#block-quicktabs-contact-us-landing-page {
-		margin-top: -96px;
+		// margin-top: -96px; // with world map
+		margin-top: 10px; // without world map
+		margin-top: .625rem;
 	}
 
 // target size 360px
@@ -47,7 +49,7 @@ ul.ui-tabs-nav li.ui-state-default:last-child {
 // news landing
 
 	.news-portrait {
-		float: none;
+		// float: none;
 		margin-bottom: 16px;
 	}
 

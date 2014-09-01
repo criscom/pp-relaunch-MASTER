@@ -89,14 +89,53 @@ footer {
 	// Vertical spacing for the blocks in the right sidebar and after content region
 
 		.region-sidebar-right {
-		margin-bottom: 23px; // If there is a right sidebar we need some more margin for the spacing between
+		margin-bottom: 8px; // If there is a right sidebar we need some more margin for the spacing between
 		// the right sidebar and the button "Find an office location"
-		margin-bottom: 1.4375rem;
+		margin-bottom: .5rem;
 		#block-views-regional-news-block .views-row-last, // If there is a view in the right sidebar like on office pages
 		#block-block-9  { // If there is a button as last element in the right sidebar like on about us
-			margin-bottom: 28px !important; 
+			// margin-bottom: 28px !important; 
 			// adjust the spacing between the view and Fin and office location.
 		}
+	}
+
+		.page-node-824 .field-name-body ul { // Services landing
+			margin-bottom: 0 !important;
+		}
+
+	.field-name-body p:last-child,
+	.node-services .field-name-field-link-team {
+		margin-bottom: 8px !important
+	}
+
+		.page-node-8 .region-sidebar-right { // assurances page
+			margin-top: 48px !important;
+		}
+
+
+
+
+	.region-after-content .block-menu-block {
+		margin-bottom: 30px; // spacing between Menu and Quick tabs
+	}
+
+	.region-after-content #block-menu-block-28 {
+		margin-bottom: 20px;
+	}
+
+	.region-after-content { // spacing between main content and menu on all pages except team pages
+		margin-top: 22px;
+		margin-top: 1.375rem;
+	}
+
+	.region-sidebar-right .view-footer p {
+		margin-bottom: 12px;
+		margin-bottom: 0.75rem;
+	}
+
+	#block-block-9 { // Download corporate brochure
+		margin-bottom: 12px;
+		margin-bottom: .75rem;
 	}
 
 // team pages
@@ -111,8 +150,8 @@ body.page-team-location,
 body.page-team-managers,
 body.node-type-team {
 	.region.region-after-content {
-    margin-top: 44px;
-    margin-top: 2.75rem;
+    margin-top: 32px;
+    margin-top: 2rem;
 	}
 }
 
@@ -135,10 +174,18 @@ body.node-type-team {
 
 
 	.block-pedersenandpartners-mobile-navigation { // Spacing between Quick Select and the footer
-		margin-top: 29px; // top spacing beween Quick Select and menu or "Find an office location"
-		margin-top: 1.8125rem;
+		// margin-top: 29px; // top spacing beween Quick Select and menu or "Find an office location"
+		// margin-top: 1.8125rem; //
+		margin-top: 0; // if there is no menu and no button above Quick Select
 		margin-bottom: 50px;
 		margin-bottom: 3.125rem;
+	}
+
+	body.page-node-904 { // candidates page
+		.block-pedersenandpartners-mobile-navigation {
+			margin-top: 44px;
+			margin-top: 2.75rem;
+		}
 	}
 
 	.region {
@@ -316,6 +363,34 @@ h2.newsletter {
 }
 
 
+
+
+//===========================================================
+// Practice Groups
+
+// PG landing
+
+.page-node-830 {
+	.field-name-body {
+		.span3-pg-first ul {
+			margin-bottom: 0 !important;
+		}
+		.span4 ul {
+		margin-top: 0 !important;
+		margin-bottom: 0 !important;
+		}
+	}
+}
+
+
+// Spacing between references
+
+.references2 {
+	margin-top: -23px;
+	margin-top: -1.4375rem;
+}
+
+
 //===========================================================
 // OFFICES
 
@@ -330,6 +405,13 @@ span.city-country {
 
 //===========================================================
 // Contact Us
+
+
+// Remove world map on mobile
+
+#block-block-40 {
+	display: none;
+}
 
 // Tabs
 
@@ -354,6 +436,42 @@ ul.ui-tabs-nav li.ui-state-default:last-child {
 #block-views-events-block-1 {
 margin-top: 32px;
 	margin-top: 2rem;
+}
+
+
+//===========================================================
+// SITEMAP
+
+.panel-2col-stacked {
+	.panel-col-first,
+	.panel-col-second {
+    float: none;
+    width: 100%;
+   }
+}
+
+.sitemap-services ul {
+	margin-bottom: 0;
+}
+
+.sitemap-practice-groups ul {
+	margin-top: 8px !important;
+	margin-top: .5rem !important;
+}
+
+.sitemap-contact ul {
+	margin-bottom: -4px; // spacing bottom between last menu item Contact and footer
+}
+
+
+
+//===========================================================
+// Footer menu
+
+// fix spacing between the two columns
+
+footer ul.menu {
+	margin-bottom: 0 !important;
 }
 
 
