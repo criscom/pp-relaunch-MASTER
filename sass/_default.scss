@@ -2142,7 +2142,11 @@ footer div.container div.row > div {
 
 // hide <<first and last>> buttons in pager
 .disabled a {
-	display: none;
+	// display: none;
+}
+
+.item-list .pager li {
+	padding: 0;
 }
 
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
