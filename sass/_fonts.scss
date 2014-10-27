@@ -1,21 +1,23 @@
 /*
-// Specific stylings for fonts 
+// Specific stylings for 'fonts 
 * Font family
 * Sizes ==> see also init.scss
 * Font color
 */
 
 //===========================================================
-// Roboto Google Webfonts on own server
+// Roboto Google Web'fonts on own server
 // 20141027
 
 @font-face {
   font-family: 'robotolight';
   font-style: normal;
   font-weight: 300;
-  src: local('Roboto Light'), local('Roboto-Light'), url(fonts/Roboto-Thin.woff) format('woff');
-  src: local('Roboto Light'), local('Roboto-Light'), url(fonts/Roboto-Thin.woff2) format('woff2');
-  src: local('Roboto Light'), local('Roboto-Light'), url(fonts/Roboto-Thin.ttf) format('truetype');
+  src: local('Roboto Light'), local('Roboto-Light'), url('fonts/Roboto-Light.eof') format('embedded-opentype');
+  src: local('Roboto Light'), local('Roboto-Light'), url('fonts/Roboto-Light.eof?#iefix') format('embedded-opentype');
+  src: local('Roboto Light'), local('Roboto-Light'), url('fonts/Roboto-Light.woff') format('woff');
+  src: local('Roboto Light'), local('Roboto-Light'), url('fonts/Roboto-Light.woff2') format('woff2');
+  src: local('Roboto Light'), local('Roboto-Light'), url('fonts/Roboto-Light.ttf') format('truetype');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
@@ -23,22 +25,35 @@
   font-family: 'robotoregular';
   font-style: normal;
   font-weight: 400;
-  src: local('Roboto Regular'), local('Roboto-Regular'), url(fonts/Roboto-Regular.woff) format('woff');
-  src: local('Roboto Regular'), local('Roboto-Regular'), url(fonts/Roboto-Regular.ttf) format('truetype');
+  src: local('Roboto Regular'), local('Roboto-Regular'), url('fonts/Roboto-Regular.eof') format('embedded-opentype');
+  src: local('Roboto Regular'), local('Roboto-Regular'), url('fonts/Roboto-Regular.eof?#iefix') format('embedded-opentype');
+  src: local('Roboto Regular'), local('Roboto-Regular'), url('fonts/Roboto-Regular.woff') format('woff');
+  src: local('Roboto Regular'), local('Roboto-Regular'), url('fonts/Roboto-Regular.woff2') format('woff2');
+  src: local('Roboto Regular'), local('Roboto-Regular'), url('fonts/Roboto-Regular.ttf') format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+
 }
 @font-face {
   font-family: 'robotomedium';
   font-style: normal;
   font-weight: 500;
-  src: local('Roboto Medium'), local('Roboto-Medium'), url(fonts/Roboto-Medium.woff) format('woff');
-  src: local('Roboto Medium'), local('Roboto-Medium'), url(fonts/Roboto-Medium.ttf) format('truetype');
+  src: local('Roboto Medium'), local('Roboto-Medium'), url('fonts/Roboto-Medium.eof') format('embedded-opentype');
+  src: local('Roboto Medium'), local('Roboto-Medium'), url('fonts/Roboto-Medium.eof?#iefix') format('embedded-opentype');
+  src: local('Roboto Medium'), local('Roboto-Medium'), url('fonts/Roboto-Medium.woff') format('woff');
+  src: local('Roboto Medium'), local('Roboto-Medium'), url('fonts/Roboto-Medium.woff2') format('woff2');
+  src: local('Roboto Medium'), local('Roboto-Medium'), url('fonts/Roboto-Medium.ttf') format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 @font-face {
   font-family: 'robotobold';
   font-style: normal;
   font-weight: 700;
-  src: local('Roboto Bold'), local('Roboto-Bold'), url(fonts/Roboto-Bold.woff) format('woff');
-  src: local('Roboto Bold'), local('Roboto-Bold'), url(fonts/Roboto-Bold.ttf) format('truetype');
+  src: local('Roboto Bold'), local('Roboto-Bold'), url('fonts/Roboto-Bold.eof') format('embedded-opentype');
+  src: local('Roboto Bold'), local('Roboto-Bold'), url('fonts/Roboto-Bold.eof?#iefix') format('embedded-opentype');
+  src: local('Roboto Bold'), local('Roboto-Bold'), url('fonts/Roboto-Bold.woff') format('woff');
+src: local('Roboto Bold'), local('Roboto-Bold'), url('fonts/Roboto-Bold.woff2') format('woff2');
+src: local('Roboto Bold'), local('Roboto-Bold'), url('fonts/Roboto-Bold.ttf') format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
 
@@ -417,7 +432,7 @@ body.node-type-offices {
 	ul.quicktabs-tabs {
 		li {
 			a {
-				font-family: $roboto;
+				font-family: $robotoregular;
 				color: $blue;
 			}
 			&.active a {
@@ -608,11 +623,11 @@ footer {
 		font-size: 24px;
 		// http://help.dimsemenov.com/kb/royalslider-jquery-plugin-issues/font-flickering-or-blurriness
 		// instead of dimsemonov's solution I have applied 
-		// http://stackoverflow.com/questions/9049524/safari-rendering-page-fonts-thinner-with-jquery-slider-on-page
+		// http://stackoverflow.com/questions/9049524/safari-rendering-page-'fonts-thinner-with-jquery-slider-on-page
 		// see _default.scss lines 487 - 490
 		.mac.webkit & {
 			// -webkit-backface-visibility:hidden;
-			// http://stackoverflow.com/questions/9049524/safari-rendering-page-fonts-thinner-with-jquery-slider-on-page
+			// http://stackoverflow.com/questions/9049524/safari-rendering-page-'fonts-thinner-with-jquery-slider-on-page
 			//  -webkit-font-smoothing: antialiased; // this also works but disabled for now
 			// font-weight: 400;
 		}
@@ -649,7 +664,7 @@ footer {
 
 
 .region-header-menu .menu-name-main-menu li a {
-	font-family: $roboto !important;
+	font-family: $robotoregular !important;
 	// font-size: 14px !important;
 	// font-size: .875rem !important;
 	font-size: $base-font-size !important;
@@ -661,7 +676,8 @@ footer {
 .gecko.win,
 .chrome.win {
 	.region-header-menu .menu-name-main-menu>ul.nav>li>a {
-	font-weight: 700 !important;
+	font-family: $robotobold !important;
+	// font-weight: 700 !important;
 	}
 }
 
