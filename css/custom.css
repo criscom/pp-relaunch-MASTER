@@ -2476,11 +2476,11 @@ footer div.footer-copyright div.row div.span6 {
   float: left;
 }
 
-/* line 2608, ../sass/_default.scss */
+/* line 2602, ../sass/_default.scss */
 .pagination {
   position: relative;
 }
-/* line 2611, ../sass/_default.scss */
+/* line 2605, ../sass/_default.scss */
 .pagination .ajax-progress .throbber {
   position: absolute;
   bottom: 0;
@@ -2501,36 +2501,36 @@ footer div.footer-copyright div.row div.span6 {
 [class*="span"] {
 	margin-left: 10px;
 }*/
-/* line 2636, ../sass/_default.scss */
+/* line 2630, ../sass/_default.scss */
 .form-type-select label {
   display: none;
 }
 
 /* Hide Menu link "Sidebar" in main menu */
-/* line 2643, ../sass/_default.scss */
+/* line 2637, ../sass/_default.scss */
 ul.nav > li:last-child {
   display: none;
 }
 
-/* line 2658, ../sass/_default.scss */
+/* line 2652, ../sass/_default.scss */
 body.sitemap .menu-block-wrapper ul li {
   list-style: none;
   list-style-type: none;
 }
-/* line 2662, ../sass/_default.scss */
+/* line 2656, ../sass/_default.scss */
 body.sitemap .menu-block-wrapper ul li a {
   text-decoration: underline;
   color: #003465;
 }
-/* line 2667, ../sass/_default.scss */
+/* line 2661, ../sass/_default.scss */
 body.sitemap .menu-block-wrapper ul li a:hover, body.sitemap .menu-block-wrapper ul li a:focus {
   text-decoration: none;
 }
-/* line 2674, ../sass/_default.scss */
+/* line 2668, ../sass/_default.scss */
 body.sitemap .menu-block-wrapper ul li.first {
   margin-left: 0 !important;
 }
-/* line 2677, ../sass/_default.scss */
+/* line 2671, ../sass/_default.scss */
 body.sitemap .menu-block-wrapper ul li.first a {
   font-size: 20px !important;
 }
@@ -2549,11 +2549,11 @@ body.sitemap .menu-block-wrapper ul li.first a {
 @media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
   /* on retina, use image that's scaled by 2 */
 }
-/* line 2717, ../sass/_default.scss */
+/* line 2711, ../sass/_default.scss */
 .view-admin-in-the-media-2013-2014 .views-row {
   margin-bottom: 32px;
 }
-/* line 2720, ../sass/_default.scss */
+/* line 2714, ../sass/_default.scss */
 .view-admin-in-the-media-2013-2014 .views-row a {
   color: #003465;
 }
