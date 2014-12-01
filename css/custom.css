@@ -3373,7 +3373,8 @@ body.page-node-3 .arrow-down {
 
 /* line 773, ../sass/_fonts.scss */
 .field-name-field-published-by-text,
-.published-by-link {
+.published-by-link,
+.published-by-label {
   font-size: 11px;
   font-size: 0.6875rem;
   font-style: italic;

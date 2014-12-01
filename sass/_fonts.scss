@@ -771,7 +771,9 @@ body.page-node-3 {
 // published by news section
 
 .field-name-field-published-by-text,
-.published-by-link {
+.published-by-link,
+.published-by-label // added 20141201 criscom
+ {
 	font-size: 11px;
 	font-size: 0.6875rem;
 	font-style: italic;
