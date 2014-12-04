@@ -612,7 +612,11 @@ iframe {
 
 /* line 29, ../sass/_default.scss */
 hr {
+<<<<<<< HEAD
   border-top: 1px solid #cccccc !important;
+=======
+  border-top: 1px solid #666666 !important;
+>>>>>>> 8e5b9942d4b73f8ccb170bd4fe980094e78bcfa7
 }
 
 /* line 38, ../sass/_default.scss */
