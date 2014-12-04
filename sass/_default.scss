@@ -26,7 +26,9 @@ iframe
     max-width: 100%;
 }
 
-
+hr {
+    border-top: 1px solid $gray !important;
+}
 
 //===========================================================
 // Form elements
