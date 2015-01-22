@@ -1336,13 +1336,16 @@ body.node-type-offices
     // SIDEBAR SUBMENU - 2nd LEVEL
     li.expanded
     {
-        > a.active-trail
+        > a.active-trail,
+        > span.nolink
         {
             display: block;
-
             padding-bottom: 8px;
             padding-left: 24px;
-
+        }
+        > a.active-trail,
+        > span.active-trail 
+        {
             color: $yellow;
         }
         > ul
@@ -1362,6 +1365,10 @@ body.node-type-offices
         }
     }
 }
+
+// News and Events archives menu
+
+
 
 
 // Contact us page - sidebar menu
@@ -1521,35 +1528,35 @@ body.node-type-offices
 
 // Events archive menu
 
-#block-menu-block-24
-{
-    h3
-    {
-        margin-top: 34px;
-        margin-top: 2.125rem;
-        margin-bottom: -6px;
-    }
-    ul
-    {
-        padding-left: 0;
-        li
-        {
-            margin-left: 0;
+// #block-menu-block-24
+// {
+//     h3
+//     {
+//         margin-top: 34px;
+//         margin-top: 2.125rem;
+//         margin-bottom: -6px;
+//     }
+//     ul
+//     {
+//         padding-left: 0;
+//         li
+//         {
+//             margin-left: 0;
 
-            list-style: none;
-            a
-            {
-                text-decoration: underline;
+//             list-style: none;
+//             a
+//             {
+//                 text-decoration: underline;
 
-                color: $blue;
-                &:hover
-                {
-                    text-decoration: none;
-                }
-            }
-        }
-    }
-}
+//                 color: $blue;
+//                 &:hover
+//                 {
+//                     text-decoration: none;
+//                 }
+//             }
+//         }
+//     }
+// }
 
 //–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
@@ -1641,7 +1648,8 @@ body.node-type-offices
 
 
 .view-events-overview,
-#quicktabs-news
+#quicktabs-news,
+body.page-archive .view-press-releases-overview
 {
     ul.quicktabs-tabs
     {
@@ -1802,7 +1810,8 @@ h2.news-header
 #quicktabs-tabpage-news-0,
 #quicktabs-tabpage-news-1,
 #quicktabs-tabpage-news-2,
-#quicktabs-tabpage-news-3
+#quicktabs-tabpage-news-3,
+body.page-archive .view-press-releases-overview
 {
     .views-field-view-node
     {

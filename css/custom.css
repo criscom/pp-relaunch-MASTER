@@ -1534,22 +1534,36 @@ body.node-type-offices .view-office-team-members .views-row .views-field-title {
 }
 /* line 1339, ../sass/_default.scss */
 #block-block-41 .content ul.worldcarouselmenu li.expanded > a.active-trail,
+#block-block-41 .content ul.worldcarouselmenu li.expanded > span.nolink,
 .content .block-menu-block ul.menu li.expanded > a.active-trail,
+.content .block-menu-block ul.menu li.expanded > span.nolink,
 .region-after-content .block-menu-block ul.menu li.expanded > a.active-trail,
-.region-sidebar-left .block-menu-block ul.menu li.expanded > a.active-trail {
+.region-after-content .block-menu-block ul.menu li.expanded > span.nolink,
+.region-sidebar-left .block-menu-block ul.menu li.expanded > a.active-trail,
+.region-sidebar-left .block-menu-block ul.menu li.expanded > span.nolink {
   display: block;
   padding-bottom: 8px;
   padding-left: 24px;
+}
+/* line 1346, ../sass/_default.scss */
+#block-block-41 .content ul.worldcarouselmenu li.expanded > a.active-trail,
+#block-block-41 .content ul.worldcarouselmenu li.expanded > span.active-trail,
+.content .block-menu-block ul.menu li.expanded > a.active-trail,
+.content .block-menu-block ul.menu li.expanded > span.active-trail,
+.region-after-content .block-menu-block ul.menu li.expanded > a.active-trail,
+.region-after-content .block-menu-block ul.menu li.expanded > span.active-trail,
+.region-sidebar-left .block-menu-block ul.menu li.expanded > a.active-trail,
+.region-sidebar-left .block-menu-block ul.menu li.expanded > span.active-trail {
   color: #faa614;
 }
-/* line 1348, ../sass/_default.scss */
+/* line 1351, ../sass/_default.scss */
 #block-block-41 .content ul.worldcarouselmenu li.expanded > ul,
 .content .block-menu-block ul.menu li.expanded > ul,
 .region-after-content .block-menu-block ul.menu li.expanded > ul,
 .region-sidebar-left .block-menu-block ul.menu li.expanded > ul {
   padding-left: 0;
 }
-/* line 1351, ../sass/_default.scss */
+/* line 1354, ../sass/_default.scss */
 #block-block-41 .content ul.worldcarouselmenu li.expanded > ul li.leaf,
 .content .block-menu-block ul.menu li.expanded > ul li.leaf,
 .region-after-content .block-menu-block ul.menu li.expanded > ul li.leaf,
@@ -1558,7 +1572,7 @@ body.node-type-offices .view-office-team-members .views-row .views-field-title {
   padding-left: 48px;
   background-position: 24px 17px;
 }
-/* line 1358, ../sass/_default.scss */
+/* line 1361, ../sass/_default.scss */
 #block-block-41 .content ul.worldcarouselmenu li.expanded > ul li.first,
 .content .block-menu-block ul.menu li.expanded > ul li.first,
 .region-after-content .block-menu-block ul.menu li.expanded > ul li.first,
@@ -1566,65 +1580,65 @@ body.node-type-offices .view-office-team-members .views-row .views-field-title {
   border-top: 1px solid #cccccc !important;
 }
 
-/* line 1372, ../sass/_default.scss */
+/* line 1379, ../sass/_default.scss */
 #block-block-41 h3 {
   margin-bottom: 12px;
 }
-/* line 1377, ../sass/_default.scss */
+/* line 1384, ../sass/_default.scss */
 #block-block-41 .content ul.worldcarouselmenu {
   margin-top: 4px;
   margin-top: .25rem;
 }
 
-/* line 1397, ../sass/_default.scss */
+/* line 1404, ../sass/_default.scss */
 .view-display-id-block_2 div.views-field-field-events-date {
   float: left;
 }
 
-/* line 1407, ../sass/_default.scss */
+/* line 1414, ../sass/_default.scss */
 .group-city-date-wrapper .event-city,
 .group-city-date-wrapper .event-date {
   font-weight: 700;
 }
 
-/* line 1416, ../sass/_default.scss */
+/* line 1423, ../sass/_default.scss */
 .event-city:after {
   margin: 0 4px;
   content: '-';
 }
 
-/* line 1426, ../sass/_default.scss */
+/* line 1433, ../sass/_default.scss */
 .group-date-time-wrapper:before, .group-date-time-wrapper:after {
   display: table;
   content: ' ';
 }
-/* line 1433, ../sass/_default.scss */
+/* line 1440, ../sass/_default.scss */
 .group-date-time-wrapper:after {
   clear: both;
 }
-/* line 1437, ../sass/_default.scss */
+/* line 1444, ../sass/_default.scss */
 .group-date-time-wrapper .label-inline.event-date,
 .group-date-time-wrapper .event-date,
 .group-date-time-wrapper .event-time {
   float: left;
 }
-/* line 1443, ../sass/_default.scss */
+/* line 1450, ../sass/_default.scss */
 .group-date-time-wrapper .event-time {
   float: left;
 }
-/* line 1446, ../sass/_default.scss */
+/* line 1453, ../sass/_default.scss */
 .group-date-time-wrapper .event-time:before {
   padding: 0 4px;
   content: '-';
 }
 
-/* line 1455, ../sass/_default.scss */
+/* line 1462, ../sass/_default.scss */
 .event-venue-wrapper {
   clear: both;
   margin-top: 1.4em;
 }
 
-/* line 1462, ../sass/_default.scss */
+/* line 1469, ../sass/_default.scss */
 .group-events-footer-wrapper {
   margin-top: 24px;
   margin-bottom: 22px;
@@ -1633,75 +1647,50 @@ body.node-type-offices .view-office-team-members .views-row .views-field-title {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
 }
-/* line 1471, ../sass/_default.scss */
+/* line 1478, ../sass/_default.scss */
 .group-events-footer-wrapper:before, .group-events-footer-wrapper:after {
   display: table;
   content: ' ';
 }
-/* line 1477, ../sass/_default.scss */
+/* line 1484, ../sass/_default.scss */
 .group-events-footer-wrapper:before:after, .group-events-footer-wrapper:after:after {
   clear: both;
 }
 
-/* line 1486, ../sass/_default.scss */
+/* line 1493, ../sass/_default.scss */
 .field-name-field-detailed-information table {
   font-size: 11px;
   margin-top: 0;
   margin-bottom: 12px;
   margin-bottom: .75rem;
 }
-/* line 1493, ../sass/_default.scss */
+/* line 1500, ../sass/_default.scss */
 .field-name-field-detailed-information table tbody {
   border-top: 0;
 }
-/* line 1498, ../sass/_default.scss */
+/* line 1505, ../sass/_default.scss */
 .field-name-field-detailed-information p:first-child {
   margin-top: 0;
 }
-/* line 1502, ../sass/_default.scss */
+/* line 1509, ../sass/_default.scss */
 .field-name-field-detailed-information p:last-child {
   margin-bottom: 0;
 }
 
-/* line 1508, ../sass/_default.scss */
+/* line 1515, ../sass/_default.scss */
 .field-name-field-club-administrator {
   clear: both;
 }
-/* line 1511, ../sass/_default.scss */
+/* line 1518, ../sass/_default.scss */
 .field-name-field-club-administrator p:first-child {
   margin-top: 0;
 }
-/* line 1515, ../sass/_default.scss */
+/* line 1522, ../sass/_default.scss */
 .field-name-field-club-administrator p:last-child {
   margin-bottom: 0;
 }
 
-/* line 1526, ../sass/_default.scss */
-#block-menu-block-24 h3 {
-  margin-top: 34px;
-  margin-top: 2.125rem;
-  margin-bottom: -6px;
-}
-/* line 1532, ../sass/_default.scss */
-#block-menu-block-24 ul {
-  padding-left: 0;
-}
-/* line 1535, ../sass/_default.scss */
-#block-menu-block-24 ul li {
-  margin-left: 0;
-  list-style: none;
-}
-/* line 1540, ../sass/_default.scss */
-#block-menu-block-24 ul li a {
-  text-decoration: underline;
-  color: #003465;
-}
-/* line 1545, ../sass/_default.scss */
-#block-menu-block-24 ul li a:hover {
-  text-decoration: none;
-}
-
-/* line 1563, ../sass/_default.scss */
+/* line 1570, ../sass/_default.scss */
 .region-sidebar-left .btn-warning, .region-sidebar-left .pagination ul > li > a:hover, .pagination .region-sidebar-left ul > li > a:hover,
 .region-sidebar-left .pagination ul > li > a:focus,
 .pagination .region-sidebar-left ul > li > a:focus,
@@ -1722,19 +1711,19 @@ body.node-type-offices .view-office-team-members .views-row .views-field-title {
   text-align: left;
 }
 
-/* line 1577, ../sass/_default.scss */
+/* line 1584, ../sass/_default.scss */
 .btn {
   padding: 6px 12px !important;
 }
 
-/* line 1594, ../sass/_default.scss */
+/* line 1601, ../sass/_default.scss */
 #sidebar-left #block-pedersenandpartners-navigation-navigation {
   margin-top: 38px;
   margin-top: 2.375rem;
 }
 
 /* QUICKTABS Effect */
-/* line 1612, ../sass/_default.scss */
+/* line 1619, ../sass/_default.scss */
 .quicktabs-hide {
   position: absolute;
   top: -999999px;
@@ -1742,7 +1731,7 @@ body.node-type-offices .view-office-team-members .views-row .views-field-title {
   opacity: 0 !important;
 }
 
-/* line 1622, ../sass/_default.scss */
+/* line 1629, ../sass/_default.scss */
 .quicktabs-tabpage,
 .quicktabs-ui-wrapper {
   -webkit-transition: all 1s ease .1s;
@@ -1751,9 +1740,10 @@ body.node-type-offices .view-office-team-members .views-row .views-field-title {
   transition: all 1s ease .1s;
 }
 
-/* line 1646, ../sass/_default.scss */
+/* line 1654, ../sass/_default.scss */
 .view-events-overview ul.quicktabs-tabs,
-#quicktabs-news ul.quicktabs-tabs {
+#quicktabs-news ul.quicktabs-tabs,
+body.page-archive .view-press-releases-overview ul.quicktabs-tabs {
   margin-top: 8px;
   margin-top: .5rem;
   margin-bottom: 18px;
@@ -1762,53 +1752,61 @@ body.node-type-offices .view-office-team-members .views-row .views-field-title {
   padding-bottom: 1.3125rem;
   border-bottom: 1px solid #cccccc;
 }
-/* line 1656, ../sass/_default.scss */
+/* line 1664, ../sass/_default.scss */
 .view-events-overview ul.quicktabs-tabs li,
-#quicktabs-news ul.quicktabs-tabs li {
+#quicktabs-news ul.quicktabs-tabs li,
+body.page-archive .view-press-releases-overview ul.quicktabs-tabs li {
   margin-right: 24px !important;
   margin-right: 1.5rem !important;
 }
-/* line 1662, ../sass/_default.scss */
+/* line 1670, ../sass/_default.scss */
 .view-events-overview .views-field-view-node,
-#quicktabs-news .views-field-view-node {
+#quicktabs-news .views-field-view-node,
+body.page-archive .view-press-releases-overview .views-field-view-node {
   float: right;
   clear: left;
 }
-/* line 1668, ../sass/_default.scss */
+/* line 1676, ../sass/_default.scss */
 .view-events-overview .views-row,
-#quicktabs-news .views-row {
+#quicktabs-news .views-row,
+body.page-archive .view-press-releases-overview .views-row {
   margin-bottom: 22px;
   margin-bottom: 1.375rem;
   padding-bottom: 28px;
   padding-bottom: 1.75rem;
   border-bottom: 1px solid #cccccc;
 }
-/* line 1676, ../sass/_default.scss */
+/* line 1684, ../sass/_default.scss */
 .view-events-overview .views-row:before, .view-events-overview .views-row:after,
 #quicktabs-news .views-row:before,
-#quicktabs-news .views-row:after {
+#quicktabs-news .views-row:after,
+body.page-archive .view-press-releases-overview .views-row:before,
+body.page-archive .view-press-releases-overview .views-row:after {
   display: table;
   content: ' ';
 }
-/* line 1683, ../sass/_default.scss */
+/* line 1691, ../sass/_default.scss */
 .view-events-overview .views-row:after,
-#quicktabs-news .views-row:after {
+#quicktabs-news .views-row:after,
+body.page-archive .view-press-releases-overview .views-row:after {
   clear: both;
 }
-/* line 1690, ../sass/_default.scss */
+/* line 1698, ../sass/_default.scss */
 .view-events-overview .views-row .field-name-body p,
 .view-events-overview .views-row .field-name-body div,
 #quicktabs-news .views-row .field-name-body p,
-#quicktabs-news .views-row .field-name-body div {
+#quicktabs-news .views-row .field-name-body div,
+body.page-archive .view-press-releases-overview .views-row .field-name-body p,
+body.page-archive .view-press-releases-overview .views-row .field-name-body div {
   margin-bottom: 16px;
 }
 
-/* line 1699, ../sass/_default.scss */
+/* line 1707, ../sass/_default.scss */
 h2.news-header {
   margin-top: 0 !important;
 }
 
-/* line 1707, ../sass/_default.scss */
+/* line 1715, ../sass/_default.scss */
 .views-field-created-1 {
   height: 20px;
   background-image: url("../images/icon-date.png");
@@ -1816,24 +1814,24 @@ h2.news-header {
   background-position: left center;
   background-size: 17px 14px;
 }
-/* line 1715, ../sass/_default.scss */
+/* line 1723, ../sass/_default.scss */
 .views-field-created-1 span {
   padding-left: 24px;
   padding-left: 1.5rem;
 }
 
-/* line 1722, ../sass/_default.scss */
+/* line 1730, ../sass/_default.scss */
 .news-portrait {
   float: left;
 }
-/* line 1726, ../sass/_default.scss */
+/* line 1734, ../sass/_default.scss */
 .news-portrait img {
   margin-top: 8px;
   margin-right: 12px;
   margin-right: .75rem;
 }
 
-/* line 1734, ../sass/_default.scss */
+/* line 1742, ../sass/_default.scss */
 .news-landscape {
   margin-top: 22px;
   margin-top: 1.375rem;
@@ -1854,14 +1852,14 @@ h2.news-header {
 	padding-left: 24px;
 	padding-left: 1.5rem;
 } */
-/* line 1761, ../sass/_default.scss */
+/* line 1769, ../sass/_default.scss */
 .news-tags ul {
   margin-right: 15%;
   list-style: none;
   list-style-type: none;
   list-style-image: none;
 }
-/* line 1768, ../sass/_default.scss */
+/* line 1776, ../sass/_default.scss */
 .news-tags ul li {
   display: inline;
   height: 20px;
@@ -1875,7 +1873,7 @@ h2.news-header {
   background-size: 17px 14px;
 }
 
-/* line 1787, ../sass/_default.scss */
+/* line 1795, ../sass/_default.scss */
 .view .field-name-field-tags {
   height: 20px;
   padding-left: 22px;
@@ -1885,16 +1883,17 @@ h2.news-header {
   background-size: 17px 14px;
 }
 
-/* line 1807, ../sass/_default.scss */
+/* line 1816, ../sass/_default.scss */
 #quicktabs-tabpage-news-0 .views-field-view-node,
 #quicktabs-tabpage-news-1 .views-field-view-node,
 #quicktabs-tabpage-news-2 .views-field-view-node,
-#quicktabs-tabpage-news-3 .views-field-view-node {
+#quicktabs-tabpage-news-3 .views-field-view-node,
+body.page-archive .view-press-releases-overview .views-field-view-node {
   margin-top: -36px;
   margin-top: -2.25rem;
 }
 
-/* line 1829, ../sass/_default.scss */
+/* line 1838, ../sass/_default.scss */
 .node-events h2,
 .node-article h2,
 .node-in-the-media h2,
@@ -1903,21 +1902,21 @@ h2.news-header {
   margin-top: .5rem;
 }
 
-/* line 1838, ../sass/_default.scss */
+/* line 1847, ../sass/_default.scss */
 .node-insights-article .field-name-field-date {
   margin-bottom: 24px;
   margin-bottom: 1.5rem;
 }
-/* line 1842, ../sass/_default.scss */
+/* line 1851, ../sass/_default.scss */
 .node-insights-article .field-name-field-date .field-label {
   float: left;
 }
-/* line 1847, ../sass/_default.scss */
+/* line 1856, ../sass/_default.scss */
 .node-insights-article .field-name-body {
   clear: both;
 }
 
-/* line 1853, ../sass/_default.scss */
+/* line 1862, ../sass/_default.scss */
 .node .news-tags {
   height: 20px;
   padding-right: 16px;
@@ -1930,24 +1929,24 @@ h2.news-header {
   background-size: 17px 14px;
 }
 
-/* line 1867, ../sass/_default.scss */
+/* line 1876, ../sass/_default.scss */
 .node .field-name-field-upload {
   margin-bottom: 24px;
   margin-bottom: 1.5rem;
 }
-/* line 1871, ../sass/_default.scss */
+/* line 1880, ../sass/_default.scss */
 .node .field-name-field-upload .field-item.odd {
   margin-top: 12px;
   margin-top: .75rem;
 }
 
-/* line 1878, ../sass/_default.scss */
+/* line 1887, ../sass/_default.scss */
 .download-title {
   font-weight: 700;
   margin-bottom: 2px;
 }
 
-/* line 1885, ../sass/_default.scss */
+/* line 1894, ../sass/_default.scss */
 .group-pdf-link-wrapper {
   clear: both;
   margin-bottom: 22px;
@@ -1955,18 +1954,18 @@ h2.news-header {
   border-top: 1px solid #ccc;
 }
 
-/* line 1895, ../sass/_default.scss */
+/* line 1904, ../sass/_default.scss */
 div.read-online-wrapper + div.download-wrapper {
   margin-top: 12px;
 }
 
-/* line 1902, ../sass/_default.scss */
+/* line 1911, ../sass/_default.scss */
 .download {
   margin-bottom: 12px;
   margin-bottom: .75rem;
 }
 
-/* line 1909, ../sass/_default.scss */
+/* line 1918, ../sass/_default.scss */
 .group-pdf-link-wrapper .download {
   /* Be VERY careful with this, breaks normal words wh_erever */
   word-break: break-all;
@@ -1978,54 +1977,54 @@ div.read-online-wrapper + div.download-wrapper {
   hyphens: auto;
 }
 
-/* line 1924, ../sass/_default.scss */
+/* line 1933, ../sass/_default.scss */
 .published-by-wrapper {
   float: right;
   margin-bottom: 1.4em;
 }
 
-/* line 1939, ../sass/_default.scss */
+/* line 1948, ../sass/_default.scss */
 .field-name-add-this-news-detail {
   margin-bottom: 12px;
   margin-bottom: .75rem;
 }
 
-/* line 1945, ../sass/_default.scss */
+/* line 1954, ../sass/_default.scss */
 #share {
   float: left;
   margin-right: 16px;
   margin-right: 1rem;
 }
 
-/* line 1952, ../sass/_default.scss */
+/* line 1961, ../sass/_default.scss */
 .addthis_toolbox {
   padding-top: 2px;
   padding-top: .125rem;
 }
 
-/* line 1960, ../sass/_default.scss */
+/* line 1969, ../sass/_default.scss */
 .group-portrait-wrapper.span2 {
   margin-left: 0 !important;
 }
 
-/* line 1965, ../sass/_default.scss */
+/* line 1974, ../sass/_default.scss */
 .field-name-body p img {
   margin: 5px 10px;
 }
 
 /* Submit your CV form */
-/* line 1981, ../sass/_default.scss */
+/* line 1990, ../sass/_default.scss */
 div.querytable {
   background-color: #eee !important;
 }
 
-/* line 1998, ../sass/_default.scss */
+/* line 2007, ../sass/_default.scss */
 .image img {
   border: solid 1px #ddd;
   box-shadow: 2px 2px 3px #888;
 }
 
-/* line 2009, ../sass/_default.scss */
+/* line 2018, ../sass/_default.scss */
 .picframe iframe,
 .picframe img {
   padding: 4px;
@@ -2034,23 +2033,23 @@ div.querytable {
   border-radius: 3px 3px 3px 3px;
 }
 
-/* line 2019, ../sass/_default.scss */
+/* line 2028, ../sass/_default.scss */
 .gm iframe {
   padding: 0 !important;
 }
 
-/* line 2027, ../sass/_default.scss */
+/* line 2036, ../sass/_default.scss */
 .region-sidebar-right .field-name-field-image-page img {
   width: 205px;
 }
 
-/* line 2042, ../sass/_default.scss */
+/* line 2051, ../sass/_default.scss */
 .node-team .field-name-field-linkedin .field-label {
   font-weight: 600 !important;
   color: #003465;
 }
 
-/* line 2066, ../sass/_default.scss */
+/* line 2075, ../sass/_default.scss */
 .view-partners .views-row,
 .view-consultant .views-row,
 .view-senior-consultant .views-row,
@@ -2066,7 +2065,7 @@ div.querytable {
   margin-right: 2%;
   margin-bottom: 30px;
 }
-/* line 2077, ../sass/_default.scss */
+/* line 2086, ../sass/_default.scss */
 .view-partners .views-row .field-name-field-linkedin,
 .view-partners .views-row .views-field-title,
 .view-consultant .views-row .field-name-field-linkedin,
@@ -2087,7 +2086,7 @@ div.querytable {
 .team-list .views-row .views-field-title {
   margin-top: 14px;
 }
-/* line 2082, ../sass/_default.scss */
+/* line 2091, ../sass/_default.scss */
 .view-partners .views-row .field-name-field-linkedin,
 .view-consultant .views-row .field-name-field-linkedin,
 .view-senior-consultant .views-row .field-name-field-linkedin,
@@ -2100,7 +2099,7 @@ div.querytable {
   float: left;
   margin-right: 6px;
 }
-/* line 2088, ../sass/_default.scss */
+/* line 2097, ../sass/_default.scss */
 .view-partners .views-row .view-field-field-job-title,
 .view-consultant .views-row .view-field-field-job-title,
 .view-senior-consultant .views-row .view-field-field-job-title,
@@ -2112,7 +2111,7 @@ div.querytable {
 .team-list .views-row .view-field-field-job-title {
   clear: left;
 }
-/* line 2092, ../sass/_default.scss */
+/* line 2101, ../sass/_default.scss */
 .view-partners .views-row .views-field-field-image-page .picframe img,
 .view-consultant .views-row .views-field-field-image-page .picframe img,
 .view-senior-consultant .views-row .views-field-field-image-page .picframe img,
@@ -2124,7 +2123,7 @@ div.querytable {
 .team-list .views-row .views-field-field-image-page .picframe img {
   width: 205px;
 }
-/* line 2097, ../sass/_default.scss */
+/* line 2106, ../sass/_default.scss */
 .view-partners .views-row-last,
 .view-consultant .views-row-last,
 .view-senior-consultant .views-row-last,
@@ -2138,163 +2137,163 @@ div.querytable {
   margin-bottom: 0;
 }
 
-/* line 2109, ../sass/_default.scss */
+/* line 2118, ../sass/_default.scss */
 .view-practice-group .views-row,
 .view-by-location .views-row,
 .view-managers .views-row {
   min-height: 380px;
 }
 
-/* line 2116, ../sass/_default.scss */
+/* line 2125, ../sass/_default.scss */
 .pagination {
   clear: both;
 }
 
-/* line 2134, ../sass/_default.scss */
+/* line 2143, ../sass/_default.scss */
 .node-type-team .region-content .field-name-body p:nth-child(1) {
   margin-top: 0;
 }
-/* line 2140, ../sass/_default.scss */
+/* line 2149, ../sass/_default.scss */
 .node-type-team .region-content .picframe {
   float: left;
   margin-right: 16px;
   margin-right: 1rem;
 }
-/* line 2146, ../sass/_default.scss */
+/* line 2155, ../sass/_default.scss */
 .node-type-team .region-content .picframe img {
   width: none !important;
 }
 
-/* line 2156, ../sass/_default.scss */
+/* line 2165, ../sass/_default.scss */
 .linkedin-profile-inner {
   float: left;
   margin-right: 6px;
 }
 
-/* line 2176, ../sass/_default.scss */
+/* line 2185, ../sass/_default.scss */
 .region-sidebar-right .picframe {
   margin-bottom: 16px;
   margin-bottom: 1rem;
 }
-/* line 2181, ../sass/_default.scss */
+/* line 2190, ../sass/_default.scss */
 .region-sidebar-right .field-name-field-email-biography p {
   margin-top: 0;
 }
 
-/* line 2194, ../sass/_default.scss */
+/* line 2203, ../sass/_default.scss */
 #node-785 .field-name-body p {
   margin-top: 0;
 }
 
-/* line 2200, ../sass/_default.scss */
+/* line 2209, ../sass/_default.scss */
 #node-752 .field-name-body p {
   margin-top: 2px;
 }
 
-/* line 2214, ../sass/_default.scss */
+/* line 2223, ../sass/_default.scss */
 .field-name-field-pg-image p {
   margin-top: 0;
 }
 
-/* line 2227, ../sass/_default.scss */
+/* line 2236, ../sass/_default.scss */
 ul.social-icons li {
   -webkit-border-radius: 0;
   border-radius: 0;
 }
 
-/* line 2233, ../sass/_default.scss */
+/* line 2242, ../sass/_default.scss */
 ul.social-icons li.facebook {
   background-position: 0 -150px;
 }
 
-/* line 2238, ../sass/_default.scss */
+/* line 2247, ../sass/_default.scss */
 ul.social-icons li.facebook:hover {
   background-position: 0 -120px;
 }
 
-/* line 2243, ../sass/_default.scss */
+/* line 2252, ../sass/_default.scss */
 ul.social-icons li.twitter {
   background-position: 0 -1170px;
 }
 
-/* line 2248, ../sass/_default.scss */
+/* line 2257, ../sass/_default.scss */
 ul.social-icons li.twitter:hover {
   background-position: 0 -1140px;
 }
 
-/* line 2253, ../sass/_default.scss */
+/* line 2262, ../sass/_default.scss */
 ul.social-icons li.linkedin {
   background-position: 0 -570px;
 }
 
-/* line 2258, ../sass/_default.scss */
+/* line 2267, ../sass/_default.scss */
 ul.social-icons li.linkedin:hover {
   background-position: 0 -540px;
 }
 
-/* line 2263, ../sass/_default.scss */
+/* line 2272, ../sass/_default.scss */
 ul.social-icons li.googleplus {
   background-position: 0 -330px;
 }
 
-/* line 2268, ../sass/_default.scss */
+/* line 2277, ../sass/_default.scss */
 ul.social-icons li.googleplus:hover {
   background-position: 0 -300px;
 }
 
-/* line 2273, ../sass/_default.scss */
+/* line 2282, ../sass/_default.scss */
 ul.social-icons li.youtube {
   background-position: 0 -1410px;
 }
 
-/* line 2278, ../sass/_default.scss */
+/* line 2287, ../sass/_default.scss */
 ul.social-icons li.youtube:hover {
   background-position: 0 -1380px;
 }
 
-/* line 2283, ../sass/_default.scss */
+/* line 2292, ../sass/_default.scss */
 ul.social-icons li.xing {
   background-position: 0 -1890px;
 }
 
-/* line 2288, ../sass/_default.scss */
+/* line 2297, ../sass/_default.scss */
 ul.social-icons li.xing:hover {
   background-position: 0 -1860px;
 }
 
-/* line 2293, ../sass/_default.scss */
+/* line 2302, ../sass/_default.scss */
 ul.social-icons li.rss {
   background-position: 0 -930px;
 }
 
-/* line 2298, ../sass/_default.scss */
+/* line 2307, ../sass/_default.scss */
 ul.social-icons li.rss:hover {
   background-position: 0 -900px;
 }
 
-/* line 2320, ../sass/_default.scss */
+/* line 2329, ../sass/_default.scss */
 #block-block-41 {
   margin-top: 70px;
   margin-top: 4.375rem;
 }
 
-/* line 2327, ../sass/_default.scss */
+/* line 2336, ../sass/_default.scss */
 #block-block-40 {
   max-height: 432px;
 }
 
-/* line 2336, ../sass/_default.scss */
+/* line 2345, ../sass/_default.scss */
 body.page-node-904 #block-pedersenandpartners-navigation-navigation {
   margin-top: 76px;
   margin-top: 4.75rem;
 }
 
-/* line 2344, ../sass/_default.scss */
+/* line 2353, ../sass/_default.scss */
 .ui-tabs .ui-tabs-panel {
   padding-top: 0;
 }
 
-/* line 2349, ../sass/_default.scss */
+/* line 2358, ../sass/_default.scss */
 ul.ui-tabs-nav li.ui-state-default {
   /*padding-right: 155px!important;*/
   /*padding-left: 2%;*/
@@ -2303,26 +2302,26 @@ ul.ui-tabs-nav li.ui-state-default {
   padding-left: 17px;
 }
 
-/* line 2359, ../sass/_default.scss */
+/* line 2368, ../sass/_default.scss */
 ul.ui-tabs-nav li.ui-state-default:last-child {
   width: 28%;
   margin-right: 0 !important;
 }
 
-/* line 2366, ../sass/_default.scss */
+/* line 2375, ../sass/_default.scss */
 .ui-tabs .ui-tabs-nav li a {
   display: block;
   width: 100%;
   padding: .5em 0;
 }
 
-/* line 2375, ../sass/_default.scss */
+/* line 2384, ../sass/_default.scss */
 .ui-state-default,
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
   background: whitesmoke;
 }
-/* line 2380, ../sass/_default.scss */
+/* line 2389, ../sass/_default.scss */
 .ui-state-default:hover, .ui-state-default:focus,
 .ui-widget-content .ui-state-default:hover,
 .ui-widget-content .ui-state-default:focus,
@@ -2331,12 +2330,12 @@ ul.ui-tabs-nav li.ui-state-default:last-child {
   background: #f8f8f8;
 }
 
-/* line 2387, ../sass/_default.scss */
+/* line 2396, ../sass/_default.scss */
 .ui-state-active {
   background: white !important;
 }
 
-/* line 2396, ../sass/_default.scss */
+/* line 2405, ../sass/_default.scss */
 #block-views-contact-us-block div.content div.view div.view-content,
 #block-views-contact-us-block-2 div.content div.view div.view-content,
 #block-views-contact-us-block-1 div.content div.view div.view-content {
@@ -2344,7 +2343,7 @@ ul.ui-tabs-nav li.ui-state-default:last-child {
   margin: 28px 0 0 0;
 }
 
-/* line 2404, ../sass/_default.scss */
+/* line 2413, ../sass/_default.scss */
 #quicktabs-tabpage-contact_us_landing_page-1 div.view-id-contact_us div.view-content div.item-list h3,
 #quicktabs-tabpage-contact_us_landing_page-2 div.view-id-contact_us div.view-content div.item-list h3,
 .view-contact-us .view-content div.item-list h3,
@@ -2355,47 +2354,47 @@ ul.ui-tabs-nav li.ui-state-default:last-child {
   margin: 0 0 8px 0 !important;
 }
 
-/* line 2415, ../sass/_default.scss */
+/* line 2424, ../sass/_default.scss */
 ul.-field_city {
   clear: left;
   margin-top: 8px !important;
 }
 
-/* line 2426, ../sass/_default.scss */
+/* line 2435, ../sass/_default.scss */
 #block-views-contact-us-block-1 .view .item-list h3 {
   padding-right: 12px;
   padding-right: .75rem;
 }
-/* line 2435, ../sass/_default.scss */
+/* line 2444, ../sass/_default.scss */
 #block-views-contact-us-block-1 .view .item-list ul {
   height: 20px;
   height: 1.25rem;
   margin-bottom: 12px !important;
 }
-/* line 2441, ../sass/_default.scss */
+/* line 2450, ../sass/_default.scss */
 #block-views-contact-us-block-1 .view .item-list li {
   line-height: 16px;
   line-height: 1rem;
 }
 
-/* line 2455, ../sass/_default.scss */
+/* line 2464, ../sass/_default.scss */
 ol.search-results {
   padding-left: 0;
 }
-/* line 2458, ../sass/_default.scss */
+/* line 2467, ../sass/_default.scss */
 ol.search-results .field-name-field-tags {
   margin-top: 16px;
   margin-top: 1rem;
 }
 
-/* line 2465, ../sass/_default.scss */
+/* line 2474, ../sass/_default.scss */
 .view-mode-search {
   padding-bottom: 32px;
   padding-bottom: 2rem;
   border-bottom: 1px solid #cccccc;
 }
 
-/* line 2480, ../sass/_default.scss */
+/* line 2489, ../sass/_default.scss */
 footer {
   padding-top: 20px;
   border-top: 0;
@@ -2406,47 +2405,47 @@ footer {
   background-position: center top;
   background-size: 1280px 20px;
 }
-/* line 2492, ../sass/_default.scss */
+/* line 2501, ../sass/_default.scss */
 footer input[type='checkbox'] {
   width: 16px;
   height: 20px;
 }
-/* line 2498, ../sass/_default.scss */
+/* line 2507, ../sass/_default.scss */
 footer input[type='text'] {
   height: 30px;
   height: 1.875rem;
 }
-/* line 2503, ../sass/_default.scss */
+/* line 2512, ../sass/_default.scss */
 footer #block-block-35 p:first-child {
   margin-top: 16px !important;
   margin-top: 1rem !important;
 }
-/* line 2508, ../sass/_default.scss */
+/* line 2517, ../sass/_default.scss */
 footer ul.tweet_list {
   margin-top: 17px;
   margin-top: 1.0625rem;
   padding-left: 0 !important;
 }
-/* line 2514, ../sass/_default.scss */
+/* line 2523, ../sass/_default.scss */
 footer .tweet_avatar {
   display: none;
 }
-/* line 2518, ../sass/_default.scss */
+/* line 2527, ../sass/_default.scss */
 footer ul.menu {
   margin-top: 0;
   padding-left: 0;
 }
-/* line 2523, ../sass/_default.scss */
+/* line 2532, ../sass/_default.scss */
 footer ul.menu li {
   margin-left: 0;
   list-style: none;
 }
-/* line 2530, ../sass/_default.scss */
+/* line 2539, ../sass/_default.scss */
 footer ul.social-icons {
   margin-top: 24px;
   margin-top: 1.5rem;
 }
-/* line 2535, ../sass/_default.scss */
+/* line 2544, ../sass/_default.scss */
 footer div.footer-copyright {
   margin-top: 9px;
   margin-top: .5625rem;
@@ -2456,54 +2455,54 @@ footer div.footer-copyright {
   border-top: 0 !important;
   background: #003465;
 }
-/* line 2545, ../sass/_default.scss */
+/* line 2554, ../sass/_default.scss */
 footer div.footer-copyright div.row div.span6 {
   margin-bottom: 16px;
   margin-bottom: 1rem;
 }
 
-/* line 2563, ../sass/_default.scss */
+/* line 2572, ../sass/_default.scss */
 .region-footer-1 .block-block .span2 {
   margin-left: 0;
 }
 
-/* line 2573, ../sass/_default.scss */
+/* line 2582, ../sass/_default.scss */
 .tweet-link a {
   font-size: 11px;
   font-size: .687543rem;
   text-decoration: underline;
   color: #003465 !important;
 }
-/* line 2581, ../sass/_default.scss */
+/* line 2590, ../sass/_default.scss */
 .tweet-link a:hover, .tweet-link a:focus {
   text-decoration: none;
 }
 
-/* line 2593, ../sass/_default.scss */
+/* line 2602, ../sass/_default.scss */
 .not-front footer {
   margin-top: 35px;
 }
 
-/* line 2604, ../sass/_default.scss */
+/* line 2613, ../sass/_default.scss */
 .disabled a {
   display: none;
 }
 
-/* line 2610, ../sass/_default.scss */
+/* line 2619, ../sass/_default.scss */
 .pagination .item-list .pager li {
   padding: 0 !important;
 }
 
-/* line 2617, ../sass/_default.scss */
+/* line 2626, ../sass/_default.scss */
 .pagination ul > li > a.progress-disabled {
   float: left;
 }
 
-/* line 2624, ../sass/_default.scss */
+/* line 2633, ../sass/_default.scss */
 .pagination {
   position: relative;
 }
-/* line 2627, ../sass/_default.scss */
+/* line 2636, ../sass/_default.scss */
 .pagination .ajax-progress .throbber {
   position: absolute;
   bottom: 0;
@@ -2524,36 +2523,36 @@ footer div.footer-copyright div.row div.span6 {
 [class*="span"] {
 	margin-left: 10px;
 }*/
-/* line 2654, ../sass/_default.scss */
+/* line 2663, ../sass/_default.scss */
 .form-type-select label {
   display: none;
 }
 
 /* Hide Menu link "Sidebar" in main menu */
-/* line 2661, ../sass/_default.scss */
+/* line 2670, ../sass/_default.scss */
 ul.nav > li:last-child {
   display: none;
 }
 
-/* line 2676, ../sass/_default.scss */
+/* line 2685, ../sass/_default.scss */
 body.sitemap .menu-block-wrapper ul li {
   list-style: none;
   list-style-type: none;
 }
-/* line 2680, ../sass/_default.scss */
+/* line 2689, ../sass/_default.scss */
 body.sitemap .menu-block-wrapper ul li a {
   text-decoration: underline;
   color: #003465;
 }
-/* line 2685, ../sass/_default.scss */
+/* line 2694, ../sass/_default.scss */
 body.sitemap .menu-block-wrapper ul li a:hover, body.sitemap .menu-block-wrapper ul li a:focus {
   text-decoration: none;
 }
-/* line 2692, ../sass/_default.scss */
+/* line 2701, ../sass/_default.scss */
 body.sitemap .menu-block-wrapper ul li.first {
   margin-left: 0 !important;
 }
-/* line 2695, ../sass/_default.scss */
+/* line 2704, ../sass/_default.scss */
 body.sitemap .menu-block-wrapper ul li.first a {
   font-size: 20px !important;
 }
@@ -2572,11 +2571,11 @@ body.sitemap .menu-block-wrapper ul li.first a {
 @media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
   /* on retina, use image that's scaled by 2 */
 }
-/* line 2735, ../sass/_default.scss */
+/* line 2744, ../sass/_default.scss */
 .view-admin-in-the-media-2013-2014 .views-row {
   margin-bottom: 32px;
 }
-/* line 2738, ../sass/_default.scss */
+/* line 2747, ../sass/_default.scss */
 .view-admin-in-the-media-2013-2014 .views-row a {
   color: #003465;
 }
