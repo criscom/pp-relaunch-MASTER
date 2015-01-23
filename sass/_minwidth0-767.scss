@@ -123,6 +123,10 @@ footer {
 		margin-bottom: 20px;
 	}
 
+	.region-after-content #block-menu-block-32 {
+		margin-bottom: 0;
+	}
+
 	.region-after-content { // spacing between main content and menu on all pages except team pages
 		margin-top: 22px;
 		margin-top: 1.375rem;
@@ -172,6 +176,18 @@ body.node-type-team {
 		}
 	}
 
+#block-menu-block-32 {
+	.menu-block-wrapper ul.menu {
+		margin-bottom: 0;
+	}
+}
+
+#block-menu-block-28,
+#block-menu-block-33 {
+	.menu-block-wrapper ul.menu {
+		margin-top: 0;
+	}
+}
 
 	.block-pedersenandpartners-mobile-navigation { // Spacing between Quick Select and the footer
 		// margin-top: 29px; // top spacing beween Quick Select and menu or "Find an office location"

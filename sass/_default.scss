@@ -301,7 +301,7 @@ section.page-top
 
 ul.breadcrumb li:nth-child(2)
 {
-    a
+    a, span
     {
         color: $yellow;
     }
@@ -1367,7 +1367,11 @@ body.node-type-offices
 }
 
 // News and Events archives menu
-
+// add some spacing between News Archive 2013 and first Events Archive menu item
+li.leaf.menu-mlid-6707 { // News Archive 2013
+    margin-bottom: 8px;
+    margin-bottom: .5rem
+}
 
 
 
