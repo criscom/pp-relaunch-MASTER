@@ -1950,19 +1950,45 @@ div.read-online-wrapper + div.download-wrapper
 // Add this toolbox on NEWS detail pages
 
 .field-name-add-this-news-detail
+
 {
     margin-bottom: 12px;
     margin-bottom: .75rem;
 }
 
-#share
+.field-name-share-this-block // 20150128 criscom Share This
+{
+    margin-bottom: 28px;
+    margin-bottom: 1.75rem;
+}
+
+.field-name-share-this-block // 20150128 criscom Share This
+{
+    margin-top: -4px;
+    margin-top: -0.25rem;
+}
+
+#share, // Add this obsolete
+.field-name-share-this-block .label-inline // 20150128 criscom Share This
 {
     float: left;
 
     margin-right: 16px;
     margin-right: 1rem;
 }
-.addthis_toolbox
+
+.field-name-share-this-block .label-inline // 20150128 criscom Share This
+{
+    margin-top: 4px;
+    margin-top: .25rem;
+}
+
+.stButton {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.addthis_toolbox // Add this obsolete
 {
     padding-top: 2px;
     padding-top: .125rem;
