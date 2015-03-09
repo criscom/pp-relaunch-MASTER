@@ -893,7 +893,8 @@ body.page-team .view,
 
 // h3 headings: spacing between headers and paragraphs in body
 
-.field-name-body
+.field-name-body,
+.field-name-field-detailed-information
 {
     h3
     {
@@ -913,6 +914,10 @@ body.page-team .view,
             background-repeat: no-repeat;
             background-position: left 6px;
             background-size: 12px 11px;
+            .node-events & { // make the bullets smaller on event pages 20150309
+                background-position: 5px 7px;
+                background-size: 8px 8px;
+            }
         }
     }
 }
