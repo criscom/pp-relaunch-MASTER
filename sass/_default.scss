@@ -1872,8 +1872,8 @@ body.page-archive .view-press-releases-overview
 .node .news-tags
 {
     height: 20px;
-    padding-right: 16px;
-    padding-right: 1rem;
+    padding-right: 8px;
+    padding-right: 0.5rem;
     padding-left: 22px;
     padding-left: 1.375rem;
 
@@ -1881,6 +1881,11 @@ body.page-archive .view-press-releases-overview
     background-repeat: no-repeat;
     background-position: left center;
     background-size: 17px 14px;
+    display: inline-block;
+    &:nth-child(4) {
+        // padding-right: 0;
+    }
+
 }
 
 .node .field-name-field-upload
