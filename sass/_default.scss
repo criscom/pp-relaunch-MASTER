@@ -542,7 +542,14 @@ section.featured.map
 //===========================================================
 // Latest News
 
+// Remove Font flickering or blurriness in safari
+// http://help.dimsemenov.com/kb/royalslider-jquery-plugin-issues/font-flickering-or-blurriness
+// applied 20150526
 
+.front {
+    // -webkit-backface-visibility:hidden;
+    // -webkit-transform:translateZ(0);
+}
 
 .flexslider
 {
