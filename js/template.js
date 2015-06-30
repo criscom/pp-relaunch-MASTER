@@ -1,10 +1,29 @@
 (function ($) {
   $(document).ready(function() {
 
+
+    // Reorder team members on Chisinau office 30.06.2015
+    // Position Margarita Melniciuc on second place (was fourth place)
+
+jQuery('.page-node-40 .view-office-team-members .views-row-2').before(jQuery('.page-node-40 .view-office-team-members .views-row-4'));
+
+jQuery('.page-node-40 .view-office-team-members .views-row-2').addClass('views-row-3a').removeClass('views-row-2');
+jQuery('.page-node-40 .view-office-team-members .views-row-4').addClass('views-row-2').removeClass('views-row-4');
+jQuery('.page-node-40 .view-office-team-members .views-row-3').addClass('views-row-4').removeClass('views-row-3');
+jQuery('.page-node-40 .view-office-team-members .views-row-3a').addClass('views-row-3').removeClass('views-row-3a');
+
 // Frontpage Slideshow big image slider
     $('.front .view-frontpage-slider .rsOverflow').prepend('<div class="rsBg"><div class="rsBgimg"></div></div>');
     $('.front .view-frontpage-slider .rsOverflow').append('<div class="rsBgBottom"><div class="rsBgBottomimg"></div></div>');
-    // $('.views-field-field-bild-slider').append('<div class="projektimghover slideshow"></div>')
+    // $('.views-field-field-bild-slider').append('<div class="projektimghover slideshow"></div>');
+
+    // Finland office: change heading for Darcy Murray 02.12.2014
+
+    $("body.page-node-46 h3.team-members").html('Contact Person');
+
+    // Finland office: change job title for Darcy Murray 11.12.2014
+
+    $("body.page-node-46 .field-name-field-job-title").html('Partner & COO');
     
 // Frontpage Consultant Spotlight slider
 // adds <i class="icon-angle-right"></i> after Read more
@@ -74,8 +93,8 @@
  	// criscom Contac us landing page Listed by COUNTRY wraps first 26 cities in div and second 26 cities in div 25.10.2012 adapted 03.11.2012; again adapted 01.04.2013 moving Kazakhstan to right column i+25 ==> i+24
  	
  	var lis = $("#block-views-contact-us-block-1 div.content div.view div.view-content div.item-list");
- 	for (var i = 0; i < lis.length; i+=25) {
- 		lis.slice(i, i+25).wrapAll("<div class='li_group'></div>");
+ 	for (var i = 0; i < lis.length; i+=26) {
+ 		lis.slice(i, i+26).wrapAll("<div class='li_group'></div>");
  		}
  
   // criscom 25.10.2012 Contact Us landing page LISTED BY REGION
