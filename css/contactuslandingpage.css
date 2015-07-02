@@ -230,10 +230,11 @@ margin-left: 3%;*/
 .view-contact-us div.Johannesburg div p.city,
 .view-contact-us div.Kiev div p.city,
 .view-contact-us div.London div p.city,
-.view-contact-us div.Mumbai div p.city,
+.view-contact-us div.Munich div p.city,
 .view-contact-us div.Nicosia div p.city,
 .view-contact-us div.Prague div p.city,
 .view-contact-us div.Riyadh div p.city,
+.view-contact-us div.Petersburg div p.city,
 .view-contact-us div.Toronto div p.city,
 .view-contact-us div.Ulaanbaatar div p.city,
 .view-contact-us div.Vilnius div p.city,
@@ -344,8 +345,10 @@ margin-left: 3%;*/
 }
 
 #qt-contact_us_landing_page-ui-tabs3 .Delhi span:before,
-#qt-contact_us_landing_page-ui-tabs3 .Petersburg span:before {
-	content: ", ";
+#qt-contact_us_landing_page-ui-tabs3 .Petersburg span:before,
+#qt-contact_us_landing_page-ui-tabs3 .Shanghai span:before,
+#qt-contact_us_landing_page-ui-tabs3 .Chisinau span:before {
+	content: ', ';
 	color: #666666;
 }
 
