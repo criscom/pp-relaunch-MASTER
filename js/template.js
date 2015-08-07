@@ -1,6 +1,14 @@
 (function ($) {
   $(document).ready(function() {
 
+  // Reorder team members on Riga/Latvia office 22.07.2015
+    // Position Evita on first place (was second place)
+
+jQuery('.page-node-44 .view-office-team-members .views-row-1').before(jQuery('.page-node-44 .view-office-team-members .views-row-2'));
+
+jQuery('.page-node-44 .view-office-team-members .views-row-1').addClass('views-row-2a').removeClass('views-row-1');
+jQuery('.page-node-44 .view-office-team-members .views-row-2').addClass('views-row-1').removeClass('views-row-2');
+jQuery('.page-node-44 .view-office-team-members .views-row-2a').addClass('views-row-2').removeClass('views-row-2a');
 
     // Reorder team members on Chisinau office 30.06.2015
     // Position Margarita Melniciuc on second place (was fourth place)
