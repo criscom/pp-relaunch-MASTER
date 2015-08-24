@@ -9,6 +9,7 @@ base theme = porto
 stylesheets[all][] = css/custom.css
 stylesheets[all][] = css/flags.css
 stylesheets[all][] = css/contactuslandingpage.css
+stylesheets[all][] = css/special.css
 stylesheets[all][] = css/royalslider/minimal-white/rs-minimal-white.css
 stylesheets[all][] = css/royalslider/default/rs-default.css
 stylesheets[all][] = css/royalslider/royalslider.css
@@ -24,6 +25,8 @@ scripts[] = js/jquery.royalslider.custom.min.js
 scripts[] = js/modules/jquery.rs.bullets.js
 scripts[] = js/script.js
 scripts[] = js/template.js
+scripts[] = js/special.js
+
 ; Outdated Royalslider
 ;scripts[] = js/royal-slider-8.1.min.js ==> used on the old website
 
