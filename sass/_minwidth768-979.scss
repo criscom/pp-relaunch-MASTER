@@ -3,6 +3,19 @@
 
 @media only screen and (min-width: 768px) and (max-width: 979px) {
 
+// header top height
+
+#header-top
+{
+    height: 80px; // 15th anniversary
+   
+}
+
+// Hide search for 15th anniversary
+
+		.block-search-api-page>div.content { // 15th anniversary
+		display: none;
+	}
 
 	//===========================================================
 // Main menu
@@ -10,7 +23,7 @@
 // white space/margin between main menu and blue heading section
 
 	nav ul.nav-main {
-		margin-top: 0 !important; // -15px !important;
+		margin-top: 4px !important; // -15px !important;
 		margin-right:  -17px !important; // -3px !important;
 		margin-bottom:  11px !important; // 15px !important;
 	}

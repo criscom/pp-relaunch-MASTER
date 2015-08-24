@@ -8,14 +8,14 @@
 
 
 # Change this to :production when ready to deploy the CSS to the live server.
-#environment = :development
-environment = :production
+environment = :development
+#environment = :production
 
 # In development, we can turn on the FireSass-compatible debug_info.
 #firesass = false
 #firesass = true
 #firecompass = false
-firecompass = true
+#firecompass = true
 
 #disable warnings
 disable_warnings = true
@@ -54,9 +54,11 @@ output_style = (environment == :development) ? :expanded : :compressed
 relative_assets = true
 
 # To disable debugging comments that display the original location of your selectors. Uncomment:
-# line_comments = false
+ line_comments = true
+
+sourcemap = true
 
 # Pass options to sass. For development, we turn on the FireSass-compatible
 # debug_info if the firesass config variable above is true.
 #sass_options = (environment == :development && firesass == true) ? {:debug_info => true} : {}
-sass_options = (environment == :development && firecompass == true) ? {:line_comments => true} : {}
+#sass_options = (environment == :development && firecompass == true) ? {:line_comments => true} : {}

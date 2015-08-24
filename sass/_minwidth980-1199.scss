@@ -11,7 +11,8 @@
 	}
 
 	header .logo {
-		margin-top: 36px !important;
+		// margin-top: 36px !important; // 15th anniversary
+		margin-top: 18px !important; // 15th anniverary
 	}
 
 
@@ -23,7 +24,7 @@
 
 // white space/margin between main menu and blue heading section
 	nav ul.nav-main {
-		margin-top: -43px !important;
+		// margin-top: -43px !important; // 15th anniversary
 		margin-right: -13px !important;
 	}
 
@@ -38,7 +39,9 @@
 		}
 
 
-
+.main { // 15th anniversary
+	margin-top: 16px;
+}
 
 
 

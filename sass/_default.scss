@@ -64,7 +64,8 @@ header
 
 #header-top
 {
-    height: 60px;
+    // height: 60px; // 15th anniversary
+    height: 120px; // 15th anniversary
 }
 
 //===========================================================
@@ -78,7 +79,7 @@ div.block-search-api-page .content
     // min-width: 206px;
 
     min-width: 168px;
-    margin-top: 16px;
+    // margin-top: 16px; // 15th anniversary
 }
 
 div.block-search-api-page input[type='image']:focus
