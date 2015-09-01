@@ -94,7 +94,7 @@ jQuery('.page-node-40 .view-office-team-members .views-row-3a').addClass('views-
  
  	// Our offices worldwide Contact Us landing page LISTED ALPHABETICALLY BY CITY
  
- 	$("#block-views-contact-us-block").children("div.content").children("div.view").children("div.view-content").children("div.views-row:lt(17)").wrapAll('<div class="li_group first" />');
+ 	$("#block-views-contact-us-block").children("div.content").children("div.view").children("div.view-content").children("div.views-row:lt(19)").wrapAll('<div class="li_group first" />');
  	$("#block-views-contact-us-block").children("div.content").children("div.view").children("div.view-content").children("div.views-row:lt(18)").wrapAll('<div class="li_group second" />');
  	$("#block-views-contact-us-block").children("div.content").children("div.view").children("div.view-content").children("div.views-row:lt(19)").wrapAll('<div class="li_group third" />');
  	

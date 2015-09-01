@@ -30,6 +30,12 @@
       transitionSpeed: 1000
     });
     
+    $("#quicktabs-container-news p").each(function() {
+	    if ($(this).html() == "...") {
+		    $(this).prev().prev().append("..");
+		    $(this).remove();
+	    }
+    });
     
     
     var autoPlay = true;
