@@ -1274,7 +1274,8 @@ body.node-type-offices
             float: left;
 
             width: 163px;
-            min-height: 366px;
+            // min-height: 366px;
+            min-height: 390px; // PP-79 bug on UAE page
             margin-right: 31px;
             .field-name-field-linkedin,
             .views-field-title
