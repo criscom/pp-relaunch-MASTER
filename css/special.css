@@ -1,0 +1,11 @@
+/* CSS code for 15th anniversary landing page
+ * created: 20150817
+ * author: Philipp Hödl
+ */
+
+/* remove centering and width:1138px for content area */
+ .page-node-1486 .main > .content > .container {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+ }
