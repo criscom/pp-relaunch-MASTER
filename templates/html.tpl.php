@@ -14,6 +14,11 @@
 <?php print $head; ?>
 <title><?php print $head_title; ?></title>
 <?php print $styles; ?>
+
+<!-- implement fontawesome stylesheet because of cross browser policy -->
+
+<link rel="stylesheet" type="text/css" href="/sites/all/themes/einstern_2014/css/fonts/font-awesome/css/font-awesome.css?nkr4gr">
+
 <?php print $scripts; ?>
   
   <!-- IE Fix for HTML5 Tags -->
@@ -33,9 +38,21 @@
 <!-- added 20140722 -->
 	<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4fba63575becca74"></script>
 
-	<!-- Web Fonts  -->
+<!-- Web Fonts  -->
 	<!-- <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css"> -->
-<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>	<script src="//maps.google.com/maps/api/js?sensor=false"></script>
+    
+    <!-- commented out 20141027 after implementing Roboto on our own webserver -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'> -->
+
+<!-- Implementing a workaround for Google Webfonts Problem in China -->
+    <!-- http://chineseseoshifu.com/blog/google-fonts-instable-in-china.html -->
+    
+<!-- *** DOESN'T WORK with SSL certificate and https:// protocol *** -->
+    <!-- <link href='http://fonts.useso.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'> -->
+
+<!-- Below script can be commented out as we do not use it on the website -->
+<!-- commented out 20141016 after checking with framework maintainer  -->
+    <!-- <script src="//maps.google.com/maps/api/js?sensor=false"></script>-->
 	
 	<?php if (theme_get_setting('site_layout') == 'boxed'): ?>
 	<script type='text/javascript'>jQuery(document).ready(function ($) { $('body').addClass('boxed'); });</script>
@@ -50,6 +67,9 @@
 </head>
 
 <body class="<?php print $classes; ?>"<?php print $attributes;?>>
+<!--[if lt IE 9]>
+            <p class="browsehappy" style="text-align: center;">You are using an <strong>outdated</strong> browser. Please <a style="text-decoration: underline;" href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 <?php print $page_top; ?>
 <?php print $page; ?>
 <?php print $page_bottom; ?>
