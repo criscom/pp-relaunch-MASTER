@@ -521,8 +521,15 @@ ul.breadcrumb li:nth-child(2)
         font-size: 1.5rem !important;
         font-weight: 300 !important;
     }
+    .anniversary-button {
+        .btn {
+            width: 65%;
+            text-align: left;
+        }
+    }
 }
 
+//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 /* Map for 3rd row front */
 
 div.map-section
