@@ -4,26 +4,26 @@
  */
 
 /* remove centering and width:1138px for content area */
- .page-node-1486 .main > .content > .container {
+ .page-node-1577 .main > .content > .container {
     width: 100% !important;
     margin-right: 0;
     margin-left: 0;
  }
  
- .page-node-1486 .main > .content > .container > .row {
+ .page-node-1577 .main > .content > .container > .row {
    margin: 0;
  }
  
-.page-node-1486 .main > .content > .container > .row > .span12 {
+.page-node-1577 .main > .content > .container > .row > .span12 {
   width: 100% !important;
   margin-left: 0;
 }
 
-.page-node-1486 footer {
+.page-node-1577 footer {
   margin-top: 0;
 }
 
-.page-node-1486 .main #content {
+.page-node-1577 .main #content {
   padding-top: 0;
 }
  
