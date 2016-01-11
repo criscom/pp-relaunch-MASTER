@@ -3,6 +3,19 @@
 
 @media only screen and (min-width: 768px) and (max-width: 979px) {
 
+// header top height
+
+#header-top
+{
+    height: 80px; // 15th anniversary
+   
+}
+
+// Hide search for 15th anniversary
+
+		.block-search-api-page>div.content { // 15th anniversary
+		display: none;
+	}
 
 	//===========================================================
 // Main menu

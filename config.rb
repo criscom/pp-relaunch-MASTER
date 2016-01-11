@@ -44,6 +44,9 @@ javascripts_dir = "js"
 ## You probably don't need to edit anything below this.
 ##
 
+# CSS sourcemaps
+sourcemap = true
+
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
 output_style = (environment == :production) ? :compressed : :compressed
