@@ -128,7 +128,7 @@ jQuery(function() {
   			pp_isAnimating = false;
   			$pp_navlocking = false;
   			jQuery(this).removeClass('ps-move');
-  			if(pp_current != 4) {
+  			if(pp_current != 5) {
     		  jQuery('.ps-slidewrapper > nav .slide-next').removeClass('pp-hide');;
   			} else {
     			jQuery('.ps-slidewrapper > nav .navend').addClass('pp-show');
@@ -166,7 +166,7 @@ jQuery(function() {
     			
           $pp_switch.eq(pp_current).addClass('active');
           
-          if(pp_current != 4) {
+          if(pp_current != 5) {
             jQuery('.ps-slidewrapper > nav .slide-next').addClass('pp-hide');
             jQuery('.ps-slidewrapper > nav .navend').removeClass('pp-show');
           }
@@ -216,7 +216,7 @@ jQuery(function() {
     					pp_isAnimating = false;
         			$pp_navlocking = false;
         			jQuery(this).removeClass('ps-move');
-        			if(pp_current != 4) {
+        			if(pp_current != 5) {
           		  jQuery('.ps-slidewrapper > nav .slide-next').removeClass('pp-hide');;
         			} else {
           			jQuery('.ps-slidewrapper > nav .navend').addClass('pp-show');

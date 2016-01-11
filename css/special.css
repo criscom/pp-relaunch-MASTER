@@ -26,10 +26,14 @@
 .page-node-1577 .main #content {
   padding-top: 0;
 }
+
+.page-node-1577 .field-name-body ul li {
+  background-image: none;
+}
  
 .ps-container {
 	position: relative;
-	height: 1050px;
+	height: 748px;
 	overflow: hidden;
 	color: #666666;
 	background: #fff;
@@ -146,7 +150,7 @@
 
 .ps-content .content-inner {
   position: relative;
-  min-height: 655px;
+  min-height: 350px;
   padding-top: 67px;
 }
 
@@ -181,7 +185,7 @@
 	padding: 25px 30px;
   margin: 0 auto;
   background-color: white;
-  text-align: justify;
+  text-align: center;
 }
 
 .ps-content .content-inner .description .custom-ul {
@@ -353,7 +357,7 @@
   position: absolute;
   width: 100px;
   height: 100px;
-  top: 50%;
+  top: 0;
   left: 50%;
   margin-top: 18px;
   margin-left: -3px;
@@ -377,7 +381,7 @@
   position: absolute;
   width: 100px;
   height: 100px;
-  top: 50%;
+  top: 0;
   margin-left: -15px;
   left: 50%;
   width: 26px;
@@ -419,7 +423,7 @@
 @media screen and (max-width: 1199px) {
   
   .ps-container {
-    height: 870px;
+    height: 600px;
   }
   
   .ps-header {
@@ -444,7 +448,7 @@
   }
   
   .ps-content .content-inner {
-    min-height: 580px;
+    min-height: 290px;
     padding-top: 40px;
   }
   
@@ -472,6 +476,7 @@
 @media screen and (max-width: 767px) {
   
   .ps-container {
+    height: 578px;
     margin-left: -20px;
     margin-right: -20px;
   }
@@ -511,7 +516,7 @@
 @media screen and (max-width: 567px) {
   
   .ps-container {
-    height: 955px;
+    height: 600px;
   }
   
   .ps-header {
@@ -527,7 +532,7 @@
   }
   
   .ps-content .content-inner {
-    min-height: 699px;
+    min-height: 350px;
   }
   
   .ps-content .content-inner .description {
@@ -552,14 +557,6 @@
   
   .switch-container li.active .item > div, .switch-container li:hover .item > div {
     display: none;
-  }
-  
-  .ps-slidewrapper > nav > .slide-next:after {
-    margin-top: 8px;
-  }
-  
-  .ps-slidewrapper > nav > .slide-next:before {
-    margin-top: -10px;
   }
 }
 
