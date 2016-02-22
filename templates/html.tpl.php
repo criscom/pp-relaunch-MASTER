@@ -64,6 +64,23 @@
 	
 <?php porto_user_css();?>  
 <script type='text/javascript' src='<?php global $parent_root; echo $parent_root; ?>/vendor/modernizr.js'></script>
+<link rel="publisher" href="https://plus.google.com/+pedersenandpartners">
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Organization",
+  "name" : "Pedersen and Partners Executive Search",
+  "url" : "https://www.pedersenandpartners.com",
+  "sameAs" : [
+    "https://www.facebook.com/pedersenandpartners/",
+    "https://twitter.com/Pedersenptnrs",
+    "https://plus.google.com/+pedersenandpartners",
+    "https://www.linkedin.com/company/16339?trk=tyah",
+    "https://www.youtube.com/channel/UCg17LTxtpY8jzdG7zy3IH2A",
+    "https://www.xing.com/companies/pedersen%26partners"
+  ]
+}
+</script>
 </head>
 
 <body class="<?php print $classes; ?>"<?php print $attributes;?>>
