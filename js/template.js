@@ -334,6 +334,6 @@ jQuery(window).load(function() {
 	});
 });
 
-setTimeout(jQuery('#royal-slider-front-consultant .rsSlide .views-row-9 .more-link').each(function() {
+setTimeout(function() { jQuery('#royal-slider-front-consultant .rsSlide .views-row-9 .more-link').each(function() {
 		jQuery(this).append('<i class="icon-angle-right"></i>');
-	}),	5000);
+	})},	5000);
