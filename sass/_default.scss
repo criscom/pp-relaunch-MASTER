@@ -2070,7 +2070,11 @@ div.read-online-wrapper + div.download-wrapper
 
 .field-name-body p img
 {
-    margin: 5px 10px;
+    // margin: 5px 10px;
+    margin: 5px 0 !important;
+    padding: 0 10px;
+    height: auto !important;
+    box-sizing: border-box;
 }
 
 
