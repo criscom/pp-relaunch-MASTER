@@ -2556,7 +2556,13 @@ ul.-field_city
     }
 }
 
+//PP-146 https://batman.sunlime.at:8080/browse/PP-146 20160109
 
+.balti, .hong-kong, .mumbai-, .moscow {
+    .views-field-title {
+        padding-right: 8px;
+    }
+}
 
 
 //===========================================================
