@@ -309,6 +309,16 @@ ul.breadcrumb li:nth-child(2)
 }
 
 // offices
+
+// PP-149
+// Hide label "Office address" on Macedonia office page
+
+.page-node-31 { // Macedonia office page
+    .group-office-address h3 span {
+        display: none;
+    }
+}
+
 .page-team,
 .node-type-offices
 {
