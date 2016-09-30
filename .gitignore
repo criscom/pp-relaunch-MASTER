@@ -6,4 +6,4 @@ css/fonts/**
 css/royalslider/**
 *.sublime-project
 *.sublime-workspace
-.gitignore
+css/custom.css.map
