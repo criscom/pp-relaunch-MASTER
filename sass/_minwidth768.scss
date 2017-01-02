@@ -25,7 +25,7 @@
 		display: none;
 	}
 
-
+/*
 	#header-top {
 		float: right; // 15th anniversary
 	}
@@ -44,22 +44,22 @@
 			height: auto;
 		}
 	}
-
+*/
 	//===========================================================
 // Main menu
 
 // white space/margin between main menu and blue heading section
 
-	nav {
-		float: left !important; // 15th anniversary
-	}
+	// nav {
+	// 	float: left !important; // 15th anniversary
+	// }
 
 	nav ul.nav-main {
-		// margin-top: -2px !important; // 15th anniversary
-		margin-top: 0 !important; // 15th anniversary
+		margin-top: -2px !important; // 15th anniversary
+		// margin-top: 0 !important; // 15th anniversary
 		margin-bottom: 24px !important;
 		margin-right: -18px !important;
-		padding-left: 0 !important; // 15th anniversary
+		// padding-left: 0 !important; // 15th anniversary
 	}
 
 	.menu-block-22 .nav-main li {
