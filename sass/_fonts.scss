@@ -315,6 +315,15 @@ p, select {
 		}
 }
 
+.privacy-policy {
+	color: white !important;
+	text-decoration: none !important;
+
+	a:hover {
+		text-decoration: none;
+	}
+}
+
 .field-name-field-email-office .btn-warning {
 	// font-size: 12px;
 	// font-size: .75rem;
