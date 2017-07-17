@@ -145,18 +145,18 @@
 			  <?php endif; ?>
 	    </div>
 	    
-	    <div class="span4 span4-mr">
+	    <div class="span8 span8-last">
 	      <?php if (isset($page['footer_2'])) : ?>
 			    <?php print render($page['footer_2']); ?>
 			  <?php endif; ?>
 	    </div>
-	    
+<!--	    
 	    <div class="span4 span4-last">
 	      <?php if (isset($page['footer_3'])) : ?>
 			    <?php print render($page['footer_3']); ?>
 			  <?php endif; ?>
 	    </div>
-	    
+-->	    
 <!-- 	    <div class="span4">
 	      <?php if (isset($page['footer_4'])) : ?>
 			    <?php print render($page['footer_4']); ?>
