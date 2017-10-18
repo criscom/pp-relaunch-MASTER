@@ -183,15 +183,16 @@ p, select {
 .page-node-8 {
 	.field-name-body {
 		p, div {
-			font-family: $roboto;
-			color: $blue;
-			font-size: $h3-font-size;
-			font-weight: 300;
-			margin-right: 15px;
-			margin-left: 15px;
+			// font-family: $roboto;
+			color: $gray;
+			// color: $blue;
+			// font-size: $h3-font-size;
+			// font-weight: 300;
+			// margin-right: 15px;
+			// margin-left: 15px;
 			.gecko.win &,
 			.chrome.win & {
-				font-weight: 400;
+				// font-weight: 400;
 			}
 		}
 	}
