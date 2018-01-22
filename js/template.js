@@ -52,7 +52,7 @@ Drupal.behaviors.osShareThis = {
   // Reorder team members on Paris/France office 19.09.2016
     // Position Gautier Vasseur on first place (was second place)
 
-    jQuery('.page-node-892 .view-office-team-members .views-row-1').before(jQuery('.page-node-892 .view-office-team-members .views-row-2'));
+   jQuery('.page-node-892 .view-office-team-members .views-row-1').before(jQuery('.page-node-892 .view-office-team-members .views-row-2'));
 
     jQuery('.page-node-892 .view-office-team-members .views-row-1').addClass('views-row-2a').removeClass('views-row-1');
     jQuery('.page-node-892 .view-office-team-members .views-row-2').addClass('views-row-1').removeClass('views-row-2');
