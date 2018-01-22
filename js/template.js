@@ -2,18 +2,18 @@
 // https://batman.sunlime.at:8080/browse/PP-130
 // https://www.drupal.org/node/1197104#comment-4648080
 
-Drupal.behaviors.osShareThis = {
-    attach: function(context, settings) {
-      if ('stLight' in window) {
-        stLight.options({
-          publisher: settings.publisherId
-        });
-        // In case we're being attached after new content was placed via Ajax,
-        // force ShareThis to create the new buttons.
-        stButtons.locateElements();
-      }
-    }
-  };
+// Drupal.behaviors.osShareThis = {
+//     attach: function(context, settings) {
+//       if ('stLight' in window) {
+//         stLight.options({
+//           publisher: settings.publisherId
+//         });
+//         // In case we're being attached after new content was placed via Ajax,
+//         // force ShareThis to create the new buttons.
+//         stButtons.locateElements();
+//       }
+//     }
+//   };
 
 (function ($) {
 
@@ -21,42 +21,100 @@ Drupal.behaviors.osShareThis = {
 
   // Reorder team members on Riga/Latvia office 22.07.2015
     // Position Evita on first place (was second place)
+    // Removed the below code on request on 18.04.2017 (Position Evita on first place)
 
-    jQuery('.page-node-44 .view-office-team-members .views-row-1').before(jQuery('.page-node-44 .view-office-team-members .views-row-2'));
+    // jQuery('.page-node-44 .view-office-team-members .views-row-1').before(jQuery('.page-node-44 .view-office-team-members .views-row-2'));
 
-    jQuery('.page-node-44 .view-office-team-members .views-row-1').addClass('views-row-2a').removeClass('views-row-1');
-    jQuery('.page-node-44 .view-office-team-members .views-row-2').addClass('views-row-1').removeClass('views-row-2');
-    jQuery('.page-node-44 .view-office-team-members .views-row-2a').addClass('views-row-2').removeClass('views-row-2a');
+    // jQuery('.page-node-44 .view-office-team-members .views-row-1').addClass('views-row-2a').removeClass('views-row-1');
+    // jQuery('.page-node-44 .view-office-team-members .views-row-2').addClass('views-row-1').removeClass('views-row-2');
+    // jQuery('.page-node-44 .view-office-team-members .views-row-2a').addClass('views-row-2').removeClass('views-row-2a');
 
-        // Reorder team members on Chisinau office 30.06.2015
+        // Reorder team members on Chisinau office 30.06.2015 // re-arranged 22.01.2018
         // Position Margarita Melniciuc on second place (was fourth place)
 
-    jQuery('.page-node-40 .view-office-team-members .views-row-2').before(jQuery('.page-node-40 .view-office-team-members .views-row-4'));
+    jQuery('.page-node-40 .view-office-team-members .views-row-1').before(jQuery('.page-node-40 .view-office-team-members .views-row-4')); // Put Margarita Melniciuc first
+    jQuery('.page-node-40 .view-office-team-members .views-row-1').addClass('views-row-2a views-row-even').removeClass('views-row-1 views-row-first views-row-odd'); // Natalia Cozma
+    jQuery('.page-node-40 .view-office-team-members .views-row-2').addClass('views-row-3a views-row-odd').removeClass('views-row-2 views-row-even'); // Roman Garstea
+    jQuery('.page-node-40 .view-office-team-members .views-row-4').addClass('views-row-1 views-row-odd views-row-first').removeClass('views-row-4 views-row-even'); // Margarita Melniciuc
+    jQuery('.page-node-40 .view-office-team-members .views-row-3').addClass('views-row-4 views-row-even').removeClass('views-row-3 views-row-odd'); // Veronica Hincu
+    jQuery('.page-node-40 .view-office-team-members .views-row-2a').addClass('views-row-2').removeClass('views-row-2a'); // Natalia Cozma
+    jQuery('.page-node-40 .view-office-team-members .views-row-3a').addClass('views-row-3').removeClass('views-row-3a'); // Roman Garstea
 
-    jQuery('.page-node-40 .view-office-team-members .views-row-2').addClass('views-row-3a').removeClass('views-row-2');
-    jQuery('.page-node-40 .view-office-team-members .views-row-4').addClass('views-row-2').removeClass('views-row-4');
-    jQuery('.page-node-40 .view-office-team-members .views-row-3').addClass('views-row-4').removeClass('views-row-3');
-    jQuery('.page-node-40 .view-office-team-members .views-row-3a').addClass('views-row-3').removeClass('views-row-3a');
+    // Reorder team members for Portugal 22.01.2018
+    // Position Margarita first
+
+    jQuery('.page-node-1541 .view-office-team-members .views-row-1').before(jQuery('.page-node-1541 .view-office-team-members .views-row-2'));
+
+    jQuery('.page-node-1541 .view-office-team-members .views-row-1').addClass('views-row-2a views-row-even').removeClass('views-row-1 views-row-first views-row-odd'); // Alvaro
+    jQuery('.page-node-1541 .view-office-team-members .views-row-2').addClass('views-row-1 views-row-odd views-row-first').removeClass('views-row-2'); // Margariat
+    jQuery('.page-node-1541 .view-office-team-members .views-row-2a').addClass('views-row-2').removeClass('views-row-2a'); // Alvaro
+
+    // Reorder team members for Poland 22.01.2018
+    // Dariusz Uzycki first - Robert Jablonski after
+
+    jQuery('.page-node-37 .view-office-team-members .views-row-6').before(jQuery('.page-node-37 .view-office-team-members .views-row-7')); // positions Robert Jablonski before Dariusz Uzycki
+    
+    jQuery('.page-node-37 .view-office-team-members .views-row-7').addClass('views-row-6a views-row-even').removeClass('views-row-7 views-row-odd'); // Dariusz
+    jQuery('.page-node-37 .view-office-team-members .views-row-6').addClass('views-row-7 views-row-odd').removeClass('views-row-6 views-row-even'); // Robert
+    jQuery('.page-node-37 .view-office-team-members .views-row-6a').addClass('views-row-6').removeClass('views-row-7a'); // Dariusz
+
+
+
+
+    // Reorder team members for Shanghai 22.01.2018
+    // Position Yen Pin NG before Garry
+
+    jQuery('.page-node-689 .view-office-team-members .views-row-1').before(jQuery('.page-node-689 .view-office-team-members .views-row-2'));
+
+    jQuery('.page-node-689 .view-office-team-members .views-row-1').addClass('views-row-2a views-row-even').removeClass('views-row-1 views-row-first views-row-odd'); // Garry
+    jQuery('.page-node-689 .view-office-team-members .views-row-2').addClass('views-row-1 views-row-odd views-row-first').removeClass('views-row-2'); // Yen Pin
+    jQuery('.page-node-689 .view-office-team-members .views-row-2a').addClass('views-row-2').removeClass('views-row-2a'); // Garry
+
+
+
+
 
         // Reorder team members on Colombia office 07.05.2016
         // Position Paola Gutierrez Velandia on second place (was fourth place)
 
-    jQuery('.page-node-659 .view-office-team-members .views-row-2').before(jQuery('.page-node-659 .view-office-team-members .views-row-4'));
+    // jQuery('.page-node-659 .view-office-team-members .views-row-2').before(jQuery('.page-node-659 .view-office-team-members .views-row-4'));
 
-    jQuery('.page-node-659 .view-office-team-members .views-row-2').addClass('views-row-3a').removeClass('views-row-2');
-    jQuery('.page-node-659 .view-office-team-members .views-row-4').addClass('views-row-2').removeClass('views-row-4');
-    jQuery('.page-node-659 .view-office-team-members .views-row-3').addClass('views-row-4').removeClass('views-row-3');
-    jQuery('.page-node-659 .view-office-team-members .views-row-3a').addClass('views-row-3').removeClass('views-row-3a');
+    // jQuery('.page-node-659 .view-office-team-members .views-row-2').addClass('views-row-3a').removeClass('views-row-2');
+    // jQuery('.page-node-659 .view-office-team-members .views-row-4').addClass('views-row-2').removeClass('views-row-4');
+    // jQuery('.page-node-659 .view-office-team-members .views-row-3').addClass('views-row-4').removeClass('views-row-3');
+    // jQuery('.page-node-659 .view-office-team-members .views-row-3a').addClass('views-row-3').removeClass('views-row-3a');
+
+
+
+    // Reorder team members for Bogota 22.01.2018
+    // Position Fernanda Garcia before Alvaro
+
+    jQuery('.page-node-659 .view-office-team-members .views-row-1').before(jQuery('.page-node-659 .view-office-team-members .views-row-2'));
+
+    jQuery('.page-node-659 .view-office-team-members .views-row-1').addClass('views-row-2a views-row-even').removeClass('views-row-1 views-row-first views-row-odd'); // Alvaro
+    jQuery('.page-node-659 .view-office-team-members .views-row-2').addClass('views-row-1 views-row-odd views-row-first').removeClass('views-row-2'); // Fernanda
+    jQuery('.page-node-659 .view-office-team-members .views-row-2a').addClass('views-row-2').removeClass('views-row-2a'); // Alvaro
+
+    // Reorder team members for Peru 22.01.2018
+    // Position Cecilia Posada before Alvaro
+
+    jQuery('.page-node-1015 .view-office-team-members .views-row-1').before(jQuery('.page-node-1015 .view-office-team-members .views-row-2'));
+
+    jQuery('.page-node-1015 .view-office-team-members .views-row-1').addClass('views-row-2a views-row-even').removeClass('views-row-1 views-row-first views-row-odd'); // Alvaro
+    jQuery('.page-node-1015 .view-office-team-members .views-row-2').addClass('views-row-1 views-row-odd views-row-first').removeClass('views-row-2'); // Cecilia
+    jQuery('.page-node-1015 .view-office-team-members .views-row-2a').addClass('views-row-2').removeClass('views-row-2a'); // Alvaro
+
+
 
 
   // Reorder team members on Paris/France office 19.09.2016
     // Position Gautier Vasseur on first place (was second place)
 
-   jQuery('.page-node-892 .view-office-team-members .views-row-1').before(jQuery('.page-node-892 .view-office-team-members .views-row-2'));
+    // jQuery('.page-node-892 .view-office-team-members .views-row-1').before(jQuery('.page-node-892 .view-office-team-members .views-row-2'));
 
-    jQuery('.page-node-892 .view-office-team-members .views-row-1').addClass('views-row-2a').removeClass('views-row-1');
-    jQuery('.page-node-892 .view-office-team-members .views-row-2').addClass('views-row-1').removeClass('views-row-2');
-    jQuery('.page-node-892 .view-office-team-members .views-row-2a').addClass('views-row-2').removeClass('views-row-2a');
+    // jQuery('.page-node-892 .view-office-team-members .views-row-1').addClass('views-row-2a').removeClass('views-row-1');
+    // jQuery('.page-node-892 .view-office-team-members .views-row-2').addClass('views-row-1').removeClass('views-row-2');
+    // jQuery('.page-node-892 .view-office-team-members .views-row-2a').addClass('views-row-2').removeClass('views-row-2a');
 
 // Frontpage Slideshow big image slider
     $('.front .view-frontpage-slider .rsOverflow').prepend('<div class="rsBg"><div class="rsBgimg"></div></div>');
