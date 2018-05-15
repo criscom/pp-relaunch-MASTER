@@ -1348,6 +1348,18 @@ body.node-type-offices
     }
 }
 
+// HELPDESK-34920 Spain office
+
+body.page-node-658 .view-office-team-members 
+{
+    .views-row-1,
+    .views-row-2,
+    .views-row-3 {
+        min-height: 420px;
+    }
+}
+
+
 
 .page-node-38 .view-office-team-members
 {
