@@ -19,6 +19,7 @@
 
   $(document).ready(function() {
 
+
   // Reorder team members on Riga/Latvia office 22.07.2015
     // Position Evita on first place (was second place)
     // Removed the below code on request on 18.04.2017 (Position Evita on first place)
@@ -32,44 +33,53 @@
         // Reorder team members on Chisinau office 30.06.2015 // re-arranged 22.01.2018
         // Position Margarita Melniciuc on second place (was fourth place)
 
-    jQuery('.page-node-40 .view-office-team-members .views-row-1').before(jQuery('.page-node-40 .view-office-team-members .views-row-4')); // Put Margarita Melniciuc first
-    jQuery('.page-node-40 .view-office-team-members .views-row-1').addClass('views-row-2a views-row-even').removeClass('views-row-1 views-row-first views-row-odd'); // Natalia Cozma
-    jQuery('.page-node-40 .view-office-team-members .views-row-2').addClass('views-row-3a views-row-odd').removeClass('views-row-2 views-row-even'); // Roman Garstea
-    jQuery('.page-node-40 .view-office-team-members .views-row-4').addClass('views-row-1 views-row-odd views-row-first').removeClass('views-row-4 views-row-even'); // Margarita Melniciuc
-    jQuery('.page-node-40 .view-office-team-members .views-row-3').addClass('views-row-4 views-row-even').removeClass('views-row-3 views-row-odd'); // Veronica Hincu
-    jQuery('.page-node-40 .view-office-team-members .views-row-2a').addClass('views-row-2').removeClass('views-row-2a'); // Natalia Cozma
-    jQuery('.page-node-40 .view-office-team-members .views-row-3a').addClass('views-row-3').removeClass('views-row-3a'); // Roman Garstea
+    // jQuery('.page-node-40 .view-office-team-members .views-row-1').before(jQuery('.page-node-40 .view-office-team-members .views-row-4')); // Put Margarita Melniciuc first
+    // jQuery('.page-node-40 .view-office-team-members .views-row-1').addClass('views-row-2a views-row-even').removeClass('views-row-1 views-row-first views-row-odd'); // Natalia Cozma
+    // jQuery('.page-node-40 .view-office-team-members .views-row-2').addClass('views-row-3a views-row-odd').removeClass('views-row-2 views-row-even'); // Roman Garstea
+    // jQuery('.page-node-40 .view-office-team-members .views-row-4').addClass('views-row-1 views-row-odd views-row-first').removeClass('views-row-4 views-row-even'); // Margarita Melniciuc
+    // jQuery('.page-node-40 .view-office-team-members .views-row-3').addClass('views-row-4 views-row-even').removeClass('views-row-3 views-row-odd'); // Veronica Hincu
+    // jQuery('.page-node-40 .view-office-team-members .views-row-2a').addClass('views-row-2').removeClass('views-row-2a'); // Natalia Cozma
+    // jQuery('.page-node-40 .view-office-team-members .views-row-3a').addClass('views-row-3').removeClass('views-row-3a'); // Roman Garstea
 
     // Reorder team members for Portugal 22.01.2018
     // Position Margarita first
 
-    jQuery('.page-node-1541 .view-office-team-members .views-row-1').before(jQuery('.page-node-1541 .view-office-team-members .views-row-2'));
+    // jQuery('.page-node-1541 .view-office-team-members .views-row-1').before(jQuery('.page-node-1541 .view-office-team-members .views-row-2'));
 
-    jQuery('.page-node-1541 .view-office-team-members .views-row-1').addClass('views-row-2a views-row-even').removeClass('views-row-1 views-row-first views-row-odd'); // Alvaro
-    jQuery('.page-node-1541 .view-office-team-members .views-row-2').addClass('views-row-1 views-row-odd views-row-first').removeClass('views-row-2'); // Margariat
-    jQuery('.page-node-1541 .view-office-team-members .views-row-2a').addClass('views-row-2').removeClass('views-row-2a'); // Alvaro
+    // jQuery('.page-node-1541 .view-office-team-members .views-row-1').addClass('views-row-2a views-row-even').removeClass('views-row-1 views-row-first views-row-odd'); // Alvaro
+    // jQuery('.page-node-1541 .view-office-team-members .views-row-2').addClass('views-row-1 views-row-odd views-row-first').removeClass('views-row-2'); // Margarita
+    // jQuery('.page-node-1541 .view-office-team-members .views-row-2a').addClass('views-row-2').removeClass('views-row-2a'); // Alvaro
 
     // Reorder team members for Poland 22.01.2018
     // Dariusz Uzycki first - Robert Jablonski after
 
-    jQuery('.page-node-37 .view-office-team-members .views-row-6').before(jQuery('.page-node-37 .view-office-team-members .views-row-7')); // positions Robert Jablonski before Dariusz Uzycki
+    jQuery('.page-node-37 .view-office-team-members .views-row-7').before(jQuery('.page-node-37 .view-office-team-members .views-row-8')); // positions Dariusz Uzycki before Robert Jablonski 
     
-    jQuery('.page-node-37 .view-office-team-members .views-row-7').addClass('views-row-6a views-row-even').removeClass('views-row-7 views-row-odd'); // Dariusz
-    jQuery('.page-node-37 .view-office-team-members .views-row-6').addClass('views-row-7 views-row-odd').removeClass('views-row-6 views-row-even'); // Robert
-    jQuery('.page-node-37 .view-office-team-members .views-row-6a').addClass('views-row-6').removeClass('views-row-7a'); // Dariusz
-
+    jQuery('.page-node-37 .view-office-team-members .views-row-7').addClass('views-row-7a views-row-even').removeClass('views-row-7 views-row-odd'); // Robert
+    jQuery('.page-node-37 .view-office-team-members .views-row-8').addClass('views-row-7 views-row-odd').removeClass('views-row-8 views-row-even'); // Darius
+    jQuery('.page-node-37 .view-office-team-members .views-row-7a').addClass('views-row-8').removeClass('views-row-7a'); // Robert
 
 
 
     // Reorder team members for Shanghai 22.01.2018
     // Position Yen Pin NG before Garry
 
-    jQuery('.page-node-689 .view-office-team-members .views-row-1').before(jQuery('.page-node-689 .view-office-team-members .views-row-2'));
+    // jQuery('.page-node-689 .view-office-team-members .views-row-1').before(jQuery('.page-node-689 .view-office-team-members .views-row-2'));
 
-    jQuery('.page-node-689 .view-office-team-members .views-row-1').addClass('views-row-2a views-row-even').removeClass('views-row-1 views-row-first views-row-odd'); // Garry
-    jQuery('.page-node-689 .view-office-team-members .views-row-2').addClass('views-row-1 views-row-odd views-row-first').removeClass('views-row-2'); // Yen Pin
-    jQuery('.page-node-689 .view-office-team-members .views-row-2a').addClass('views-row-2').removeClass('views-row-2a'); // Garry
+    // jQuery('.page-node-689 .view-office-team-members .views-row-1').addClass('views-row-2a views-row-even').removeClass('views-row-1 views-row-first views-row-odd'); // Garry
+    // jQuery('.page-node-689 .view-office-team-members .views-row-2').addClass('views-row-1 views-row-odd views-row-first').removeClass('views-row-2'); // Yen Pin
+    // jQuery('.page-node-689 .view-office-team-members .views-row-2a').addClass('views-row-2').removeClass('views-row-2a'); // Garry
 
+    // Reorder team members for United Kingdowm 03.05.2018 => changed again on 25.12.2018 via PP-261
+    // Position last Amina Tukur-Tarfa
+
+    // jQuery('.page-node-408 .view-office-team-members .views-row-7').after(jQuery('.page-node-408 .view-office-team-members .views-row-3')); // Put Amina Tukur-Tarfa last (views-row-3)
+    // jQuery('.page-node-408 .view-office-team-members .views-row-3').addClass('views-row-8 views-row-even views-row-last').removeClass('views-row-3 views-row-odd');
+    // jQuery('.page-node-408 .view-office-team-members .views-row-4').addClass('views-row-3 views-row-odd').removeClass('views-row-4 views-row-even');
+    // jQuery('.page-node-408 .view-office-team-members .views-row-5').addClass('views-row-4 views-row-even').removeClass('views-row-5 views-row-odd');
+    // jQuery('.page-node-408 .view-office-team-members .views-row-6').addClass('views-row-5 views-row-odd').removeClass('views-row-6 views-row-even');
+    // jQuery('.page-node-408 .view-office-team-members .views-row-7').addClass('views-row-6 views-row-even').removeClass('views-row-7 views-row-odd views-row-last');
+    // jQuery('.page-node-408 .view-office-team-members .views-row-8').addClass('views-row-7 views-row-odd').removeClass('views-row-8 views-row-even');
 
 
 
@@ -89,20 +99,20 @@
     // Reorder team members for Bogota 22.01.2018
     // Position Fernanda Garcia before Alvaro
 
-    jQuery('.page-node-659 .view-office-team-members .views-row-1').before(jQuery('.page-node-659 .view-office-team-members .views-row-2'));
+    // jQuery('.page-node-659 .view-office-team-members .views-row-1').before(jQuery('.page-node-659 .view-office-team-members .views-row-2'));
 
-    jQuery('.page-node-659 .view-office-team-members .views-row-1').addClass('views-row-2a views-row-even').removeClass('views-row-1 views-row-first views-row-odd'); // Alvaro
-    jQuery('.page-node-659 .view-office-team-members .views-row-2').addClass('views-row-1 views-row-odd views-row-first').removeClass('views-row-2'); // Fernanda
-    jQuery('.page-node-659 .view-office-team-members .views-row-2a').addClass('views-row-2').removeClass('views-row-2a'); // Alvaro
+    // jQuery('.page-node-659 .view-office-team-members .views-row-1').addClass('views-row-2a views-row-even').removeClass('views-row-1 views-row-first views-row-odd'); // Alvaro
+    // jQuery('.page-node-659 .view-office-team-members .views-row-2').addClass('views-row-1 views-row-odd views-row-first').removeClass('views-row-2'); // Fernanda
+    // jQuery('.page-node-659 .view-office-team-members .views-row-2a').addClass('views-row-2').removeClass('views-row-2a'); // Alvaro
 
     // Reorder team members for Peru 22.01.2018
     // Position Cecilia Posada before Alvaro
 
-    jQuery('.page-node-1015 .view-office-team-members .views-row-1').before(jQuery('.page-node-1015 .view-office-team-members .views-row-2'));
+    // jQuery('.page-node-1015 .view-office-team-members .views-row-1').before(jQuery('.page-node-1015 .view-office-team-members .views-row-2'));
 
-    jQuery('.page-node-1015 .view-office-team-members .views-row-1').addClass('views-row-2a views-row-even').removeClass('views-row-1 views-row-first views-row-odd'); // Alvaro
-    jQuery('.page-node-1015 .view-office-team-members .views-row-2').addClass('views-row-1 views-row-odd views-row-first').removeClass('views-row-2'); // Cecilia
-    jQuery('.page-node-1015 .view-office-team-members .views-row-2a').addClass('views-row-2').removeClass('views-row-2a'); // Alvaro
+    // jQuery('.page-node-1015 .view-office-team-members .views-row-1').addClass('views-row-2a views-row-even').removeClass('views-row-1 views-row-first views-row-odd'); // Alvaro
+    // jQuery('.page-node-1015 .view-office-team-members .views-row-2').addClass('views-row-1 views-row-odd views-row-first').removeClass('views-row-2'); // Cecilia
+    // jQuery('.page-node-1015 .view-office-team-members .views-row-2a').addClass('views-row-2').removeClass('views-row-2a'); // Alvaro
 
 
 
@@ -128,6 +138,12 @@
     // Finland office: change job title for Darcy Murray 11.12.2014
 
     $("body.page-node-46 .field-name-field-job-title").html('Partner & COO');
+
+        // PP-206 / 15.02.2018
+        // Change Alvaro Arias' job title from "Pracitce Group Head" to "Deputy Practice Group Head"
+
+    $("body.page-node-144 .view-press-release-marketing-manager .views-row-2 .views-field-nothing .field-content").html('Deputy Practice Group Head');
+
 
 // Frontpage Consultant Spotlight slider
 // adds <i class="icon-angle-right"></i> after Read more
