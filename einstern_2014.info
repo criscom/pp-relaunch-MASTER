@@ -12,6 +12,7 @@ base theme = porto
 ; Call style sheets.
 stylesheets[all][] = css/custom.css
 stylesheets[all][] = css/flags.css
+stylesheets[all][] = css/sunlime.css
 stylesheets[all][] = css/contactuslandingpage.css
 stylesheets[all][] = css/royalslider/minimal-white/rs-minimal-white.css
 stylesheets[all][] = css/royalslider/default/rs-default.css

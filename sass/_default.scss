@@ -2878,3 +2878,10 @@ body.sitemap
         color: $blue;
     }
 }
+
+// HELPDESK-39052
+// Fix alignment for Venu label on event pages
+
+.event-venue-wrapper .label-inline {
+    float: left;
+}
