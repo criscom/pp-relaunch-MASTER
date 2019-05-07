@@ -208,7 +208,7 @@
 
  	$("#block-views-contact-us-block").children("div.content").children("div.view").children("div.view-content").children("div.views-row:lt(19)").wrapAll('<div class="li_group first" />');
  	$("#block-views-contact-us-block").children("div.content").children("div.view").children("div.view-content").children("div.views-row:lt(18)").wrapAll('<div class="li_group second" />');
- 	$("#block-views-contact-us-block").children("div.content").children("div.view").children("div.view-content").children("div.views-row:lt(19)").wrapAll('<div class="li_group third" />');
+ 	$("#block-views-contact-us-block").children("div.content").children("div.view").children("div.view-content").children("div.views-row:lt(20)").wrapAll('<div class="li_group third" />');
 
  	// criscom Contac us landing page Listed by COUNTRY wraps first 26 cities in div and second 26 cities in div 25.10.2012 adapted 03.11.2012; again adapted 01.04.2013 moving Kazakhstan to right column i+25 ==> i+24
 
