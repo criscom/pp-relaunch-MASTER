@@ -217,6 +217,7 @@ p, select {
 		font-size: 14px;
 		font-size: .875rem;
 		line-height: 20px;
+		.views-field-field-biography-office .view-mode-office_biography_view_2014 .field-name-title a,
 		.views-field-title span a {
 			color: $blue;
 			font-weight: 700;
@@ -248,10 +249,18 @@ p, select {
 	.views-field-title, // Name of person
 	.views-field-nothing, // Title
 	.views-field-view-node, // Link to biography
-	.field-name-field-email-biography {
+	.field-name-field-email-biography,
+	.field-name-field-linkedin {
 		// font-size: 14px;
 		// font-size: .875rem;
 		@include adjust-font-size-to( 14px );
+	}
+	.field-name-field-linkedin a {
+		color: $blue;
+		text-decoration: underline;
+		&:hover, &:focus {
+			text-decoration: none;
+		}
 	}
 }
 
@@ -385,6 +394,7 @@ body.node-type-offices {
 				font-weight: 700;
 			}
 			div span a,
+			.field-name-field-linkedin div div a,
 			.views-field-field-email-person div div a,
 			.field-name-field-job-title {
 				font-size: 14px;

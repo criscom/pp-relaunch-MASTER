@@ -2202,20 +2202,30 @@ div.querytable
 
         max-width: 211px; // adjusting image sizes on team to 205px w and 246 px h
         // min-height: 470px;
-        min-height: 398px;
+        // min-height: 398px;
+        min-height: 412px;
         margin-right: 2%;
         // margin-bottom: 40px;
         margin-bottom: 30px; // adjusting image sizes on team to 205px w and 246 px h
         .field-name-field-linkedin,
-        .views-field-title
+        .views-field-title,
+        .views-field-field-biography-office .view-mode-office_biography_view_2014 .field-name-title
         {
             margin-top: 14px;
         }
-        .field-name-field-linkedin
+        .field-name-field-linkedin div div,
+        .field-name-field-practice-group-head
         {
-            float: left;
+            // float: left;
 
-            margin-right: 6px;
+            // margin-right: 6px;
+            a {
+                color: $blue;
+                text-decoration: underline;
+                &:hover, &:focus {
+                    text-decoration: none;
+                }
+            }
         }
         .view-field-field-job-title
         {
