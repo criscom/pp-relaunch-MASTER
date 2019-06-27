@@ -1371,6 +1371,18 @@ body.page-node-658 .view-office-team-members
     }
 }
 
+// HELPDESK-40382 Moldova office
+
+.page-node-40 .view-office-team-members
+{
+    .views-row-1,
+    .views-row-2,
+    .views-row-3
+    {
+        min-height: 420px !important;
+    }
+}
+
 
 //===========================================================
 // SIDEBAR MENU
