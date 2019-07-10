@@ -1383,6 +1383,18 @@ body.page-node-658 .view-office-team-members
     }
 }
 
+// HELPDESK-40491 Balti office
+
+.page-node-1462 .view-office-team-members
+{
+    .views-row-1,
+    .views-row-2,
+    .views-row-3
+    {
+        min-height: 420px !important;
+    }
+}
+
 
 //===========================================================
 // SIDEBAR MENU
