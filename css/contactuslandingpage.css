@@ -347,7 +347,7 @@ margin-left: 3%;*/
 
 #qt-contact_us_landing_page-ui-tabs3 .Delhi span:before,
 #qt-contact_us_landing_page-ui-tabs3 .Petersburg span:before,
-#qt-contact_us_landing_page-ui-tabs3 .Shanghai span:before,
+#qt-contact_us_landing_page-ui-tabs3 .Shanghai span:before, /*PP-294 Contact us: By Country - Remove comma before Shanghai */
 #qt-contact_us_landing_page-ui-tabs3 .Chisinau span:before {
 	content: ', ';
 	color: #666666;
