@@ -1348,6 +1348,14 @@ body.node-type-offices
     }
 }
 
+// HELPDESK-43365 malysia office
+
+body.page-node-1993 .view-office-team-members {
+    .views-row-2 {
+        min-height: 410px;
+    }
+}
+
 // HELPDESK-34920 Spain office
 
 body.page-node-658 .view-office-team-members 
