@@ -2927,3 +2927,15 @@ body.sitemap
 .event-venue-wrapper .label-inline {
     float: left;
 }
+
+// HELPDESK-43590
+// COOKIE BANNER
+
+.html #sliding-popup .popup-content #popup-text h2 {
+    font-size: 20px;
+}
+
+#popup-text .eu-cookie-compliance-more-button {
+    font-size: 12px;
+    font-weight: bold;
+}
