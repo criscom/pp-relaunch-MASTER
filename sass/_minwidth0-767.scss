@@ -220,6 +220,13 @@ body.node-type-team {
 		text-align: left;
 	}
 
+
+// PP-362 - pedersenandpartners.com: fix team detail view on nobile
+
+.group-team-info-wrapper.field-group-div {
+    clear: both;
+}
+
 	//–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 
